@@ -1,0 +1,1445 @@
+.Attendordermen {
+	margin-bottom: 0.5rem;
+}
+
+
+.AttendorderinformationHeaderleft {
+	width: 1.71rem;
+	height: 0.36rem;
+	margin-top: 0.24rem;
+	float: left;
+}
+
+.AttendorderinformationHeaderleft img {
+	width: 100%;
+	height: 100%;
+}
+
+.AttendorderinformationHeader {
+	width: 100%;
+	height: 0.98rem;
+	background: url(../images/navattendbg.png) no-repeat;
+	background-size: 100% 100%;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+.AttendorderinformationHeaderright {
+	width: 0.44rem;
+	height: 0.34rem;
+	background: url(../images/navattendselect.png) no-repeat;
+	background-size: 100% 100%;
+	float: right;
+	margin-top: 0.26rem;
+	text-align: right;
+}
+
+.Attendordermentopleft {
+	float: left;
+}
+
+.Attendordermentopright {
+	float: right;
+	text-align: right;
+}
+
+.Attendordermen {
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	margin-top: 0.98rem;
+}
+
+.Attendordermentoplefttitle {
+	color: #000;
+	font-size: 0.36rem;
+	margin-bottom: 0.2rem;
+}
+
+.resetbtn {
+	color: #1944cb;
+	font-size: 0.2rem;
+	margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+}
+
+.pricenum {
+	color: #fe0000;
+	font-size: 0.28rem;
+}
+
+.Attendordermentop {
+	overflow: hidden;
+}
+
+.kindtype {
+	font-size: 0.28rem;
+	color: #333;
+}
+
+.kindtypeprice,
+.kindtypenum {
+	font-size: 0.2rem;
+	color: #333;
+}
+
+.Attendordermenbottom {
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+}
+
+.Attendordermenmessage {
+	overflow: hidden;
+	padding: 0 0.3rem;
+}
+
+.Attendordermenmessageheader {
+	width: 100%;
+	height: 0.8rem;
+	background: url(../images/cbuy.png) no-repeat;
+	background-size: 100% 100%;
+	font-size: 0.28rem;
+	line-height: 0.8rem;
+	color: #fff;
+}
+
+.AttendordermenmessageheaderLeft {
+	margin-left: 0.22rem;
+}
+
+.Attendorderperson ul li {
+	width: 1.48rem;
+	height: 0.7rem;
+	border: 1px solid #666666;
+	float: left;
+	margin-right: 0.12rem;
+	border-radius: 0.16rem;
+	line-height: 0.7rem;
+	text-align: center;
+	font-size: 0.24rem;
+	margin-bottom: 0.2rem;
+}
+
+.Attendordermenmessagebox {
+	padding: 0 0.2rem;
+	padding-top: 0.5rem;
+	box-sizing: border-box;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+
+.Attendorderperson ul li:nth-of-type(4n) {
+	margin-right: 0 !important;
+}
+
+.addbutton {
+	color: #1944cb;
+}
+
+.delbtn {
+	display: inline-block;
+	width: 0.38rem;
+	height: 0.37rem;
+	background: url(../images/delbtn.png) no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.delbtnright {
+	vertical-align: middle;
+	font-size: 0.28rem;
+	color: #000;
+}
+
+.Attendorderpersonmessageleft {
+	float: left;
+}
+
+.Attendorderpersonmessageright {
+	float: right;
+	height: 0.3rem;
+	width: 0.16rem;
+	background: url(../images/locaition.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.63rem;
+}
+
+.Attendorderpersonmessageleftname {
+	margin-left: 0.6rem;
+	line-height: 0.4rem;
+}
+
+.Attendorderpersonmessageleftname:nth-of-type(1) {
+	margin-left: 0 !important;
+}
+
+.Attendorderpersonmessageleftname:nth-of-type(1) .delbtnright {
+	margin-left: 0.17rem !important;
+}
+
+.Attendorderpersonmessage ul li {
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.Attendorderpersonmessage ul li:last-child {
+	border-bottom: 0;
+}
+
+.attendbottom {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	/*border-top:1px solid #ddd;*/
+}
+
+.attendbottom ul li {
+	float: left;
+}
+
+.attendbottomnum {
+	width: 60%;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #ff0000;
+}
+
+.attendbottombuy {
+	width: 40%;
+	text-align: center;
+	background: url(../images/buybtns4.png) no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+	font-size: 0.3rem;
+}
+
+.Attendorderpersonactive {
+	background: #0033cc;
+	color: #fff;
+	border: 0 !important;
+	height: 0.72rem !important;
+	width: 1.52rem !important;
+}
+
+.Attendordermenmessage1 {
+	margin: 0 0.3rem;
+	margin-top: 1.3rem;
+}
+
+.Attendordermenmessage1from {
+	background: #fff;
+}
+
+.Attendordermenmessage1fromiutem {
+	padding: 0.3rem 0.24rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #cccccc;
+	overflow: hidden;
+	position: relative;
+}
+
+.Attendordermenmessage1fromiutem .left {
+	display: inline-block;
+	color: #333;
+	font-size: 0.28rem;
+	float: left;
+	width: 1.2rem;
+}
+
+.tab_grxxDivleft {
+	display: inline-block;
+	color: #333;
+	font-size: 0.28rem;
+	float: left;
+	width: 1.7rem;
+	margin-right: 0.18rem;
+}
+
+.AnnualTicketsContainerItemRight a {
+	display: inline-block;
+	width: 1.36rem;
+	height: 0.46rem;
+	border: 0.02rem solid #1929a2;
+	text-align: center;
+	line-height: 0.46rem;
+	color: #1929a2;
+	font-size: 0.24rem;
+}
+
+.AnnualTicketsContainerItemRight a.active_bga {
+	background: #1929a2;
+	color: #fff;
+}
+
+.Attendordermenmessage1fromiutem .right {
+	float: left;
+	margin-left: 0.5rem;
+	font-size: 0.28rem;
+}
+
+.Attendordermenmessage1fromiutem .right input {
+	color: #333;
+	font-size: 0.28rem;
+}
+
+.editemess {
+	background: #fff;
+	padding-top: 0.7rem;
+	padding-bottom: 0.55rem;
+	margin-bottom:2rem;
+}
+
+.fs36 {
+	font-size: 0.36rem;
+}
+
+.fs28 {
+	font-size: 0.28rem;
+}
+
+.border-1b {
+	border-bottom: 1px solid #ddd;
+}
+
+.tab_grxxDivbox {
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+
+
+/*.tab_grxxDivght {
+	margin-left: 0.18rem;
+}*/
+
+.chooseBtn1 {
+	display: none;
+}
+
+.chooseBtn1:checked+label.choose-label {
+	background: -webkit-linear-gradient(left, #1944cc, #0033cc);
+	background: -o-linear-gradient(right, #1944cc, #0033cc);
+	background: -moz-linear-gradient(right, #1944cc, #0033cc);
+	background: linear-gradient(to right, #1944cc, #0033cc);
+}
+
+.choose-label {
+	width: 0.9rem;
+	height: 0.5rem;
+	display: inline-block;
+	border-radius: 0.5rem;
+	position: relative;
+	background-color: #bdbdbd;
+	overflow: hidden;
+}
+
+.activefapiaoInfo_div {
+	border-bottom: 2px solid #0033cc;
+}
+
+.choose-label:before {
+	content: '';
+	position: absolute;
+	left: 0.44rem;
+	width: 0.49rem;
+	height: 0.49rem;
+	display: inline-block;
+	border-radius: 0.5rem;
+	background-color: #fff;
+	z-index: 20;
+	/* -webkit-transition: all 0.5s;
+       transition: all 0.5s;*/
+}
+
+.chooseBtn1:checked+label.choose-label:before {
+	left: 0;
+}
+
+.input_style1 input {
+	width: 0.33rem;
+	height: 0.33rem;
+	vertical-align: middle;
+	opacity: 0;
+}
+
+.input_style1 {
+	display: inline-block;
+	background: url(../images/radiobuy.png) no-repeat;
+	width: 0.33rem !important;
+	height: 0.33rem !important;
+	background-size: 100% 100%;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+}
+
+.radio_checked1 {
+	background: url(../images/radiobuychecked.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.addpersonmessagebtn {
+	width: 1.95rem;
+	height: 0.28rem;
+	background: url(../images/newsaddpersonbtn.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.53rem;
+	margin-bottom: 1.53rem;
+}
+
+.bottomconfirmbtn {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.3rem;
+	background: url(../images/cbuy1.png) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.AttendordermenmessageheaderRight {
+	display: inline-block;
+	float: right;
+	width: 0.34rem;
+	height: 0.34rem;
+	background: url(../images/delbtntrim.png) no-repeat;
+	background-size: 100% 100%;
+	margin-right: 0.24rem;
+	margin-top: 0.2rem;
+}
+
+.selectpng {
+	width: 0.2rem;
+	height: 0.11rem;
+	display: block;
+	float: right;
+	background: url(../images/selectimg.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.15rem;
+}
+
+.whetherIDcardbox {
+	width: 100%;
+	height: auto;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+.whetherIDcardbox ul li {
+	width: 100%;
+	padding: 0.3rem 0;
+	box-sizing: border-box;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	font-size: 0.3rem;
+}
+
+.whetherIDcardbox ul li:last-child {
+	border-bottom: 0;
+}
+
+.whetherIDcardbox ul li.activeId {
+	color: #0033CC;
+}
+
+.whetherIDcardboxmin::-webkit-scrollbar {
+	display: none;
+}
+
+.whetherIDcardboxmin {
+	max-height: 5rem;
+	overflow: hidden;
+	overflow: scroll;
+}
+
+.AnnualTicketsBox {
+	margin-top: 0.98rem;
+	overflow: hidden;
+	margin-bottom: 0.6rem;
+}
+
+.AnnualTicketsHeader {
+	font-size: 0.28rem;
+	color: #1929a2;
+	margin-top: 0.18rem;
+	padding: 0 0.32rem;
+	box-sizing: border-box;
+	margin-bottom: 0.34rem;
+	font-weight:bold;
+}
+
+.AnnualTicketsContainerItem {
+	padding: 0.3rem 0.22rem 0.3rem 0.3rem;
+	box-sizing: border-box;
+	background: #fff;
+	margin-bottom: 0.3rem;
+	width: 7.1rem;
+	min-height: 1.95rem;
+	background: url(../images/mentypeimg.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+	overflow: hidden;
+	position: relative;
+}
+
+.AnnualTicketsContainerItemLefttype {
+	margin-bottom: 0.18rem;
+}
+
+.AnnualTicketsContainerItemLefttype .left {
+	font-size: 0.28rem;
+	color: #333;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.AnnualTicketsContainerItemLefttype .right {
+	font-size: 0.28rem;
+	color: #fe0000;
+	margin-left: 0.15rem;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.AnnualTicketsContainerItemLefttime {
+	color: #333;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	font-weight: bold;
+}
+
+.AnnualTicketsContainerItemLefttips ul li {
+	font-size: 0.2rem;
+	color: #666;
+	line-height: 0.36rem;
+	position:relative;
+	padding-left:0.2rem;
+	box-sizing:border-box;
+}
+.AnnualTicketsContainerItemLefttips ul li:before{
+	content:"";
+	position:absolute;
+	display:inline-block;
+	height:0.1rem;
+	width: 0.1rem;
+	background:#0033CC;
+	border-radius:100%;
+	left:0;
+	top:0.14rem;
+}
+.AnnualTicketsContainerItemLeft {
+	float: left;
+	/*width:4.8rem;*/
+}
+
+.AnnualTicketsContainerItemLefttips {
+	margin-top: 0.2rem;
+	width:5rem;
+}
+
+.AnnualTicketsContainerItemRight {
+	width: 1.7rem;
+	float: right;
+	position: absolute;
+	right: 0.24rem;
+	top: 0.7rem;
+}
+
+.AnnualTicketsContainerItemRight span {
+	display: inline-block;
+	float: left;
+}
+
+.AnnualTicketsContainerItemRight span.PushDownbtn {
+	width: 0.44rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	background: #1944cb;
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+}
+
+.numbtnPush {
+	width: 0.78rem;
+	height: 0.4rem;
+	line-height: 0.42rem;
+	border: 1px solid #ccc;
+	text-align: center;
+	float: left;
+}
+
+.colorbluefont {
+	color: #0033CC;
+}
+
+.tipswenxin {
+	overflow: hidden;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	margin-bottom: 0.3rem;
+}
+
+.tipswenxinleft {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.21rem;
+	height: 0.21rem;
+	background: url(../images/tipsimg.png) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin-top: 0.08rem;
+}
+
+.tipswenxinright {
+	display: block;
+	float: left;
+	line-height: 0.38rem;
+	color: #333;
+	font-size: 0.2rem;
+}
+
+.mar {
+	margin-left: 0.2rem;
+}
+
+.mar1 {
+	margin-left: 0.42rem;
+}
+
+.pricesum {
+	float: right;
+	overflow: hidden;
+	color: #ff0000;
+	font-size: 0.28rem;
+	margin-right: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+
+.layer_bg {
+	width: 100%;
+	/*height: 55%;*/
+	height: 100%;
+	position: fixed;
+	background: #000000;
+	opacity: 0.6;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	display: none;
+}
+
+.FrequentContactssearch {
+	width: 100%;
+	height: 0.66rem;
+	margin-top: 0.98rem;
+	margin-bottom: 0.2rem;
+}
+
+.FrequentContactssearchleft {
+	height: 100%;
+	width: 5.54rem;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+
+.FrequentContactssearchleft:before {
+	display: inline-block;
+	content: "";
+	position: absolute;
+	height: 0.25rem;
+	width: 0.25rem;
+	background: url(../images/flianxirenbtn.png) no-repeat;
+	background-size: 100% 100%;
+	left: 0.5rem;
+	top: 0.2rem;
+	z-index: 999;
+}
+
+.FrequentContactssearchleft input {
+	width: 100%;
+	height: 100%;
+	font-size: 0.24rem;
+	padding-left: 0.95rem;
+	box-sizing: border-box;
+}
+
+.FrequentContactssearchRight {
+	width: 1.96rem;
+	height: 0.66rem;
+	background: url(../images/flianxiren.png) no-repeat;
+	background-size: 100% 100%;
+	float: right;
+}
+
+.FrequentContactsbox {
+	background: #fff;
+}
+
+.FrequentContactsbox ul li {
+	padding: 0.22rem 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.FrequentContactsbox ul li span {
+	font-size: 0.22rem;
+	color: #333333;
+}
+
+.FrequentContactsbox ul {
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+
+.Frequentebtns {
+	float: right;
+}
+
+.Frequentchangebtn {
+	display: inline-block;
+	width: 0.29rem;
+	height: 0.28rem;
+	background: url(../images/flianxirenedit.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.Frequentdelbtn {
+	display: inline-block;
+	width: 0.27rem;
+	height: 0.31rem;
+	background: url(../images/flianxirendel.png) no-repeat;
+	background-size: 100% 100%;
+	margin-left: 0.1rem;
+}
+
+.Frequentname {
+	width: 1.4rem;
+    display: inline-block;
+}
+
+.FrequentIDcard {
+	margin-right: 0.3rem;
+}
+
+.PersonalCenternav ul li {
+	width: 25%;
+	text-align: center;
+	float: left;
+	text-align: center;
+	line-height: 0.7rem;
+	position: relative;
+}
+
+.PersonalCenternav ul li:nth-of-type(1) {
+	width: 20% !important;
+}
+
+.PersonalCenternav ul li:nth-of-type(4) {
+	width: 30% !important;
+}
+
+.PersonalCenternav ul li a {
+	font-size: 0.26rem;
+	color: #fff;
+}
+
+.PersonalCenternav ul li i {
+	display: block;
+	width: 0.67rem;
+	height: 0.06rem;
+	background: #fff;
+	border-radius: 0.03rem;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -0.335rem;
+}
+
+.PersonalCenternav {
+	height: 0.7rem;
+	width: 100%;
+	background: url(../images/PersonalCenternav.png) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	left: 0;
+	top: 0.84rem;
+}
+.PersonalCenternav1{
+	height: 1.96rem;
+	width: 100%;
+	background: url(../images/PersonalCenternav.png) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	left: 0;
+	top: 0.84rem;
+}
+.PersonalCenternavsearch{
+	width:6.84rem;
+	height:0.66rem;
+	margin:0 auto;
+	margin-top:0.3rem;
+	font-size:0.18rem;
+	position:relative;
+	
+}
+.PersonalCenternavsearch:before{
+	position:absolute;
+	content:"";
+	height: 0.25rem;
+	width: 0.25rem;
+	background:url(../images/flianxirenbtn.png) no-repeat;
+	background-size:100% 100%;
+	top:0.2rem;
+	left:0.3rem;
+	
+}
+.PersonalCenternavsearch input{
+	width:5.46rem;
+	height:100%;
+	border-radius:0.66rem 0 0 0.66rem;
+	vertical-align:middle;
+	font-size:0.18rem;
+	padding-left:0.68rem;
+	box-sizing:border-box;
+}
+.PersonalCenternavsearch span{
+	display:inline-block;
+	height:0.66rem;
+	width:1.36rem;
+	background:#0033CC;
+	border-radius:0 0.66rem 0.66rem 0;
+	color:#fff;
+	vertical-align:middle;
+	text-align:center;
+	line-height:0.66rem;
+	position: absolute;
+    top: 0;
+    right: 0.2rem;
+    z-index:99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PersonalCenternav1 ul{
+	height:0.7rem;
+}
+.PersonalCenternav1 ul li{
+	height:0.7rem;
+}
+.PersonalCenterBox1{
+	margin-top:2.8rem !important;
+}
+.PersonalCenternavActive i {
+	display: block !important;
+}
+
+.PersonalCenterBox {
+	margin-top: 1.56rem;
+}
+
+.PersonalCenterItemList {
+	background: #fff;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	border-bottom: 1px;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+.PersonalCenterItemListheader {
+	height: 0.7rem;
+	line-height: 0.7rem;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.PersonalCenterItemListheaderleft {
+	float: left;
+	font-size: 0.24rem;
+	color: #333;
+}
+
+.PersonalCenterItemListheaderright {
+	float: right;
+	color: #ff0000;
+	font-size: 0.22rem;
+}
+
+.moneyps {
+	color: #ff0000;
+	font-size: 0.22rem;
+}
+
+.moneyps1 {
+	color: #999;
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+}
+
+.PersonalCenterItemListpic {
+	width: 0.94rem;
+	height: 0.98rem;
+	background: url(../images/PersonalCenterpiao.png) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.PersonalCenterItemListmessage {
+	float: left;
+	margin-left: 0.3rem;
+}
+
+.PersonalCenterItemListneiLeft {
+	float: left;
+}
+
+.PersonalCenterItemListnei {
+	padding: 0.25rem 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+
+.PersonalCenterItemListneiRight {
+	float: right;
+	text-align: right;
+}
+
+.namepersonalwe {
+	color: #333;
+	font-size: 0.22rem;
+}
+
+.PersonalCenterItemListmessage p {
+	font-size: 0.22rem;
+	line-height: 0.33rem;
+}
+
+.PersonalCenterItemListmessage p b {
+	font-weight: normal;
+	color: #666;
+}
+
+.PersonalCenterItemListmessage p i {
+	color: #666;
+}
+
+.PersonalCenterItemListbtn {
+	float: right;
+}
+
+.PersonalCenterItemListbtn {
+	margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+}
+
+.PersonalCenterItemListbtn a {
+	display: inline-block;
+	height: 0.44rem;
+	width: 1.28rem;
+	text-align: center;
+	line-height: 0.44rem;
+	border-radius: 0.44rem;
+	font-size: 0.22rem;
+}
+
+.servicetips {
+	border: 1px solid #999;
+	color: #333;
+}
+
+.letbtn {
+	border: 1px solid #003399;
+	color: #003399;
+	margin-left: 0.15rem;
+}
+
+.successbox {
+	width: 5.78rem;
+	height: 5.6rem;
+	background: #fff;
+	border-radius: 0.15rem;
+	position: fixed;
+	left: 50%;
+	margin-left: -2.89rem;
+	top: 50%;
+	margin-top: -2.8rem;
+	z-index: 103;
+}
+
+.successboxweil {
+	width: 5.8rem;
+	height: 3.96rem;
+	background: #fff;
+	border-radius: 0.15rem;
+	position: fixed;
+	left: 50%;
+	margin-left: -2.9rem;
+	top: 50%;
+	margin-top: -1.98rem;
+	z-index: 109;
+}
+
+.successboxheader {
+	width: 100%;
+	height: 0.8rem;
+	background: url(../images/PersonalCenterla.png) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0.15rem 0.15rem 0 0;
+	margin-bottom: 0.4rem;
+}
+
+.successboxheader1 {
+	width: 100%;
+	height: 0.8rem;
+	background: url(../images/PersonalCenterlb.png) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0.15rem 0.15rem 0 0;
+	margin-bottom: 0.4rem;
+}
+
+.successbox p {
+	padding: 0 0.35rem;
+	box-sizing: border-box;
+	font-size: 0.22rem;
+	line-height: 0.36rem;
+}
+
+.successboxweil p {
+	padding: 0 0.45rem;
+	box-sizing: border-box;
+	font-size: 0.22rem;
+	line-height: 0.36rem;
+}
+
+.successboxweil p a {
+	color: #0033CC;
+}
+
+.successboxwei {
+	width: 1.57rem;
+	height: 1.57rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+}
+
+.successboxwei img {
+	width: 100%;
+	height: 100%;
+}
+
+.closesuccess {
+	text-align: center;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	color: #666666;
+	font-size: 0.24rem;
+	border-top: 1px solid #ddd;
+	margin-top: 0.3rem;
+	cursor: pointer;
+}
+
+.successboxweilbtn {
+	height: 0.75rem;
+	line-height: 0.75rem;
+	color: #666666;
+	font-size: 0.24rem;
+	border-top: 1px solid #ddd;
+	margin-top: 0.56rem;
+	cursor: pointer;
+}
+
+.successboxweilbtn a {
+	display: inline-block;
+	text-align: center;
+	width: 49%;
+	height: 100%;
+}
+
+.successboxweilbtn a i {
+	display: inline-block;
+	width: 0.95rem;
+	height: 0.23rem;
+	background: url(../images/PersonalCenterlwn.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.gclose {
+	border-right: 1px solid #ddd;
+}
+
+.rightinput {
+	width: 3rem;
+	float: left;
+}
+
+.actioncode {
+	display: block;
+	height: 100%;
+	float: right;
+	font-size: 0.28rem;
+	font-weight: normal;
+	color: #999;
+	border-left: 1px solid #ddd;
+	position: absolute;
+	right: 0.3rem;
+	top: 0;
+	line-height: 0.98rem;
+	padding-left: 0.1rem;
+}
+#select_contact{
+	width:4.5rem;
+	position:relative;
+}
+#select_contact:before{
+	content:"";
+	position:absolute;
+	display:block;
+	height:0.11rem;
+	width:0.2rem;
+	background:url(../images/selectimg.png) no-repeat;
+	background-size:100% 100%;
+	right:0;
+	top: 0.15rem;
+}
+.selectpng1{
+	display:inline-block;
+    height:0.11rem;
+	width:0.2rem;
+	background:url(../images/selectimg.png) no-repeat;
+	background-size:100% 100%;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.45rem;
+}
+.noticeboxC{
+	padding:0 0.3rem;
+	box-sizing:border-box;
+	margin-top:0.42rem;
+}
+.noticeboxCH{
+	color:#333;
+	font-size:0.22rem;
+}
+.noticeboxC ul li{
+	line-height:0.36rem;
+	font-size:0.2rem;
+	overflow:hidden;
+}
+.noticeboxC ul li span.noticeboxCleft{
+	float:left;
+	display:block;
+	height:0.06rem;
+	width:0.06rem;
+	background:url(../images/noticetec.png) no-repeat;
+	background-size:100% 100%;
+	margin-top:0.18rem;
+	margin-right:0.2rem;
+}
+.noticeboxC ul li span.noticeboxCright{
+	float:left;
+	display:block;
+	width:6.55rem;
+}
+.fixed_divTop2 {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	background: #000;
+	background-size: 100% 100%;
+	height: 100%;
+	display: none;
+}
+
+.ul_list1 {
+	margin-top: 1rem;
+}
+
+.ul_list1 li {
+	color: #fff;
+	font-size: 0.32rem;
+}
+
+.ul_list1 li {
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+
+.ul_list1 li a {
+	color: white;
+}
+.logopanner {
+    display: inline-block;
+    width: 1.74rem;
+    height: 0.36rem;
+    float: left;
+    margin-left: 0.24rem;
+    margin-top: 0.5rem;
+}
+.PersonalCenterItemListheaderleft i,b{
+	font-size:0.18rem;
+	font-style:normal;
+	font-weight:normal;
+}
+.PersonalCenterItemListheaderleft i{
+	margin-left:0.18rem;
+}
+.codeaddpic{
+	width:5.84rem;
+	height:5.84rem;
+	background:#fff;
+	position:fixed;
+	border-radius:0.15rem;
+}
+.codeaddpictitle{
+	height:0.8rem;
+	width:100%;
+	background:url(../images/canharray4.png) no-repeat;
+	background-size:100% 100%;
+	border-radius:0.15rem 0.15rem 0 0;
+	text-align:center;
+	color:#fff;
+	font-size:0.28rem;
+	line-height:0.8rem;
+}
+.codeaddpicimages{
+	width:3.85rem;
+	height:3.85rem;
+	margin:0 auto;
+	margin-top:0.55rem;
+}
+.codeaddpicimages img{
+	width:100%;
+	height:100%;
+}
+.codeaddpicclose{
+	width:0.37rem;
+	height:1.13rem;
+	background:url(../images/closebtnmenu.png) no-repeat;
+	background-size:100% 100%;
+	float:right;
+	margin-top: -1rem;
+    margin-right: -2rem;
+}
+.codeaddpicbig{
+	width:3.85rem;
+	height:4rem;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-2.92rem;
+	margin-top:-2rem;
+	z-index:102;
+}
+.telphonetextbg{
+	padding:0.7rem 0;
+	background:#fff;
+	box-sizing:border-box;
+}
+.telphonetext{
+	padding:0.3rem;	
+	box-sizing:border-box;
+	border-bottom:1px solid #ddd;
+}
+.telphonetext span{
+	color:#333;
+	font-size:0.28rem;
+}
+.telphonetext span input{
+	color:#333;
+	font-size:0.28rem;
+}
+.telphonetextleft{
+	margin-right:1rem;
+}
+.codebtns{
+	width:2.54rem;
+	height:0.84rem;
+	background:url(../images/buybtns4.png ) no-repeat;
+	background-size:100% 100%;
+	line-height:0.84rem;
+	text-align:center;
+	color:#fff;
+	margin:0 auto;
+	margin-top:1.2rem;
+	font-size:0.3rem;
+}
+.codewenpics{
+	margin-top:1.52rem;
+}
+.codewenpicswen{
+	width:4.15rem;
+	height:0.35rem;
+	background:url(../images/erweima1_wen.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+}
+.codewenpicsimg{
+	width:3.85rem;
+	height:3.85rem;
+	margin:0 auto;
+	margin-top:0.3rem;
+}
+.codewenpicsimg img{
+	width:100%;
+	height:100%;
+}
+@media screen and (min-width:750px) {
+	.layer_bg {
+		width: 750px;
+		/*height: 39%;*/
+		height: 100%;
+		position: fixed;
+		background: #000000;
+		opacity: 0.7;
+		left: 50%;
+		margin-left: -375px;
+		bottom: 0;
+		z-index: 100;
+		display: none;
+	}
+	.express-area-box {
+		width: 750px;
+		position: fixed;
+		left: 50%;
+		margin-left: -375px;
+		bottom: 0;
+		z-index: 104;
+	}
+	.attendbottom {
+		width: 750px;
+		position: fixed;
+		left: 50%;
+		margin-left: -375px;
+		bottom: 0;
+		z-index: 100;
+	}
+	.AttendorderinformationHeader {
+		width: 750px;
+		position: fixed;
+		left: 50%;
+		margin-left: -375px;
+		top: 0;
+		z-index: 100;
+	}
+	.PersonalCenternav {
+		width: 750px;
+		position: fixed;
+		left: 50%;
+		margin-left: -375px;
+		z-index: 100;
+	}
+	.bottomconfirmbtn {
+		width: 750px;
+		position: fixed;
+		left: 50%;
+		margin-left: -375px;
+		bottom: 0;
+		z-index: 100;
+	}
+	.whetherIDcardbox {
+		width: 750px;
+		position: fixed;
+		left: 50%;
+		margin-left: -375px;
+		bottom: 0;
+		z-index: 100;
+	}
+	.fixed_divTop2{
+		width: 750px !important;
+		/*height: 39%;*/
+		height: 100%;
+		position: fixed;
+		background: #000000;
+		left: 50% !important;
+		margin-left: -375px !important;
+		bottom: 0 !important;
+		z-index: 100;
+	}
+	.ios-select-widget-box.olay {
+		width: 750px !important;
+		/*height: 39%;*/
+		height: 100%;
+		position: fixed;
+		background: #000000;
+		opacity: 0.7;
+		left: 50% !important;
+		margin-left: -375px !important;
+		bottom: 0 !important;
+		z-index: 100;
+	}
+	.ios-select-widget-box.olay>div {
+		position: fixed;
+		z-index: 1000;
+		left: 0;
+		width: 750px !important;
+		height: 100%;
+		background-color: #fff;
+		bottom: 0;
+		left: 50% !important;
+		margin-left: -375px !important;
+		height: 5rem !important;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.Attendorderperson ul li {
+		margin-right: 0.1rem;
+	}
+	.Frequentname {
+		margin-right: 0.5rem;
+	}
+	.successboxweilbtn {
+		margin-top: 0.22rem;
+	}
+	.closesuccess {
+		margin-top: 0.1rem;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.Attendorderperson ul li {
+		margin-right: 0.1rem;
+	}
+}

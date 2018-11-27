@@ -1,0 +1,873 @@
+html,
+body .groupbooking {
+	width:100%;
+	height:100%;
+	position: relative;
+}
+html,
+body .groupbooking1 {
+	width:100%;
+	min-height:100%;
+	position:relative;
+}
+.groupbooking1 {
+	background: url(../images/groupbooking.png) no-repeat;
+	background-size: 100% 100%;
+}
+body .groupbooking2 {
+	width:100%;
+	min-height:11rem;
+	position:relative;
+}
+.groupbooking2 {
+	background: url(../images/groupbooking.png) no-repeat;
+	background-size: 100% 100%;
+	overflow:hidden;
+}
+.groupbooking {
+	background: url(../images/groupbooking.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.groupbookinglogo {
+	width: 2.56rem;
+	height: 0.54rem;
+	background: url(../images/groupbooking11.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -1.28rem;
+	top: 0.36rem;
+}
+
+.groupbookingheader {
+	width: 4.79rem;
+	height: 1.88rem;
+	background: url(../images/groupbooking1.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.395rem;
+	top: 1.3rem;
+}
+
+.groupbookingperson {
+	width: 5.18rem;
+	height: 2.19rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.59rem;
+	top: 3.4rem;
+	background: url(../images/groupbooking3.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.groupbookingbot {
+	width: 100%;
+	min-height: 8rem;
+	position: absolute;
+	left: 0;
+	top:5rem;
+	background: url(../images/groupbooking2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.groupbookingbotheight {
+	width: 100%;
+	min-height:4.61rem;
+	background: url(../images/groupbooking17.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top:5.43rem !important;
+}
+.groupbookingbotheight1{
+	width: 100%;
+	min-height:16rem;
+	background: url(../images/groupbooking16.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top:5.43rem !important;
+}
+.groupbookingpeople {
+	width: 6.9rem;
+	height: 5.7rem;
+	background: url(../images/groupbooking4.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+}
+.ptexte{
+	color: #fff;
+    margin-top: 0.15rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.groupbookingpeople ul {
+	overflow: hidden;
+}
+
+.groupbookingpeople ul li {
+	width: 20%;
+	float: left;
+}
+
+.groupbookingpeople ul li a {}
+
+.groupbookingpeople ul li a .pinpic {
+	width: 0.8rem;
+	height: 0.8rem;
+	border: 1px dashed #999999;
+	/*margin: 0 auto;*/
+	border-radius: 100%;
+	text-align: center;
+	line-height: 0.8rem;
+	position: relative;
+	margin-bottom: 0.25rem;
+}
+
+.groupbookingpeople {
+	padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+	box-sizing: border-box;
+}
+
+.groupbookingpeople ul li a .pinpic .pinaddbtn {
+	font-size: 0.36rem;
+	color: #999999;
+}
+
+.picphotoarray {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	border-radius: 100%;
+}
+.coloneltype,
+.colonelprice,
+.colonelwait {
+	text-align: center;
+	font-size: 0.2rem;
+	color: #666666;
+}
+
+.coloneltype {
+	font-weight: bold;
+}
+
+.groupbookingfriend {
+	width: 5.09rem;
+	height: 0.63rem;
+	border: 1px solid #666;
+	border-radius: 0.63rem;
+	text-align: center;
+	line-height: 0.63rem;
+	font-size: 0.26rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+	font-weight: bold;
+}
+
+.groupbookingpay {
+	width: 5.09rem;
+	height: 0.63rem;
+	border-radius: 0.63rem;
+	text-align: center;
+	line-height: 0.63rem;
+	font-size: 0.26rem;
+	color: #fff;
+	margin:0 auto;
+	margin-top: 0.3rem;
+	font-weight: bold;
+	background: -webkit-linear-gradient(left, #eb5930, #de3222);
+	background: -o-linear-gradient(right, #eb5930, #de3222);
+	background: -moz-linear-gradient(right, #eb5930, #de3222);
+	background: linear-gradient(to right, #eb5930, #de3222);
+}
+
+.groupbookingruler,
+.jiegroupbooking,
+.groupbookinggetin {
+	height: 0.5rem;
+	position: absolute;
+}
+
+.groupbookinggetin {
+	width: 1.7rem;
+	right: 0;
+	top: 2.17rem;
+	background: url(../images/groupbooking12.png) no-repeat;
+	background-size: 100% 100%;
+	padding-left: 0.2rem;
+	line-height: 0.5rem;
+	color: #e74533;
+	font-size: 0.24rem;
+	box-sizing: border-box;
+}
+
+.groupbookingruler {
+	width: 0.92rem;
+	right: 0;
+	top: 1.45rem;
+	padding-left: 0.2rem;
+	line-height: 0.5rem;
+	color: #e74533;
+	font-size: 0.24rem;
+	box-sizing: border-box;
+	background: url(../images/groupbooking9.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.jiegroupbooking {
+	width: 1.44rem;
+	right: 0;
+	top: 2.86rem;
+	line-height: 0.5rem;
+	color: #e74533;
+	padding-left: 0.2rem;
+	font-size: 0.24rem;
+	background: url(../images/groupbooking13.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.GWgroupbooking {
+	width: 0.85rem;
+	height: 0.97rem;
+	background: url(../images/groupbooking10.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 0;
+	bottom: 1.36rem;
+	z-index: 99;
+}
+.GWgroupbooking1 {
+	width: 0.85rem;
+	height: 0.97rem;
+	background: url(../images/dfery.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 0;
+	bottom: 2.36rem;
+	z-index: 99;
+}
+.GWgroupbooking2{
+	width: 0.85rem;
+	height: 0.97rem;
+	background: url(../images/dfery.png) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	right: 0;
+	bottom: 2.36rem;
+	z-index: 99;
+}
+.data-jieshu {
+	font-size: 0.32rem;
+	color: #fff;
+}
+.data-jieshu1 {
+	font-size: 0.2rem;
+	color: #333;
+}
+
+.groupbookingtime {
+	width: 4.6rem;
+	margin: 0 auto;
+	margin-top: 0.7rem;
+}
+
+.date-tiem {
+	display: inline-block;
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+	border-radius: 0.1rem;
+	color: #ed8b51;
+	font-size: 0.24rem;
+}
+.date-tiem1 {
+	display: inline-block;
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #333333;
+	text-align: center;
+	line-height: 0.4rem;
+	border-radius: 0.1rem;
+	color: #fff;
+	font-size: 0.24rem;
+}
+.groupbookingtime .data-box i {
+	color: #fff;
+	font-size: 0.24rem;
+	display: inline-block;
+	margin-left: 0.05rem;
+	margin-right: 0.1rem;
+}
+.MySpellingConulli .data-box i {
+	margin-left: 0.1rem;
+}
+.ileft {
+	margin-right: 0;
+}
+
+.SpellingRulesheader {
+	margin-top: 0.72rem;
+	margin-bottom: 0.44rem;
+	font-size: 0.3rem;
+	color: #323232;
+	font-weight: bold;
+}
+
+.SpellingRules {
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	font-size: 0.24rem;
+}
+
+.SpellingRulesContainer ul li {
+	line-height: 0.44rem;
+	color: #323232;
+	font-size: 0.24rem;
+}
+.faqipeople{
+	position:relative;
+	float:left;
+}
+.faqipeople .faqipeopleleft {
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.8rem;
+	border: 1px dashed #999999;
+	margin: 0 auto;
+	border-radius: 100%;
+	position: relative;
+	margin-bottom: 0.25rem;
+	vertical-align:middle;
+	/*margin-left: 0.2rem;*/
+}
+.faqipeoplecenter{
+	display:inline-block;
+	font-size:0.2rem;
+	vertical-align:middle;
+	margin-top:-0.3rem;
+	margin-left:0.15rem;
+}
+.colonel {
+	display: block;
+	height: 0.24rem;
+	width: 0.6rem;
+	background: url(../images/groupbooking8.png) no-repeat;
+	background-size: 100% 100% !important;
+	position:absolute;
+	left:-0.24rem;
+	top:-0.12rem;
+}
+.faqipeopleleft img{
+	width:100%;
+	height:100%;
+	border-radius:100%;
+}
+.faqipeopleright{
+	display:inline-block;
+	margin-top:-0.3rem;
+	vertical-align:middle;
+	margin-left:0.28rem;
+}
+.faqipeopletel{
+	display:inline-block;
+	width:0.27rem;
+	height:0.27rem;
+	background:url(../images/groupbooking14.png) no-repeat;
+	background-size: 100% 100% !important;
+	vertical-align:middle;
+}
+.faqipeoplecode{
+	vertical-align:middle;
+	font-size:0.2rem;
+	margin-left:0.1rem;
+}
+.cantuanbtn{
+	width:5.7rem;
+	height:0.8rem;
+	height:auto;
+	padding:0.14rem 0;
+	background:url(../images/groupbooking15.png) no-repeat;
+	background-size: 100% 100% !important;
+	margin:0 auto;
+	margin-bottom:0.5rem;
+	box-sizing:border-box;
+}
+.grougbtncantun{
+	margin-top:1rem;
+}
+.grougbtncantun p{
+	text-align:center;
+}
+.cantuanbtnp1{
+	font-size:0.26rem;
+	font-weight:bold;
+	color:#e74433;
+}
+.cantuanbtnp2{
+	font-size:0.2rem;
+	color:#ff5c00;
+}
+.groupbookinbg{
+	width:100%;
+	height:1.47rem;
+	background:url(../images/groupbooking17.png) no-repeat;
+	background-size:100% 100%;
+}
+.cantuancontainer{
+	height:auto;
+	background:#e74433;
+	padding-bottom:0.26rem;
+	box-sizing:border-box;
+}
+.cantuancontainertwo{
+	width:6.93rem;
+	padding:0.18rem 0.2rem;
+	background:#fff;
+	margin:0 auto;
+	box-sizing:border-box;
+	border-radius:0.15rem;
+	overflow:hidden;
+}
+.cantuancontainerH{
+	font-size:0.24rem;
+	font-weight:bold;
+	margin-bottom:0.2rem;
+}
+.cantuancontainertwoitemlistleft{
+	height:0.3rem;
+	width:0.3rem;
+	background:#e74433;
+	color:#fff;
+	border-radius:100%;
+	text-align:center;
+	line-height:0.3rem;
+	float:left;
+	margin-top:0.3rem;
+}
+.cantuancontainertwoitemlistcenter{
+	float:left;
+	margin-left:0.2rem;
+}
+.cantuancontainertwoitemlistright{
+	float:right;
+}
+.cantuancontainertwoitemlist{
+	overflow:hidden;
+	padding-bottom:0.2rem;
+	padding-top:0.2rem;
+	box-sizing:border-box;
+	border-bottom:1px solid #e7e5e5;
+}
+.picphotoc{
+	width: 0.8rem;
+    height: 0.8rem;
+    border: 1px dashed #999999;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    position: relative;
+    margin-bottom:0.1rem;
+    font-size:0.24rem;
+    color:#666;
+    position:relative;
+}
+.picphotoc img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+	border-radius:100%;
+}
+.cantuancontainertwoitem .cantuancontainertwoitemlist:last-child{
+	border-bottom:none;
+}
+.cantuancontainertwoitemlistright{
+	width:0.9rem;
+	height:0.4rem;
+	background:url(../images/groupbooking18.png) no-repeat;
+	background-size:100% 100%;
+	text-align:center;
+	line-height:0.4rem;
+	font-size:0.22rem;
+	color:#fff;
+	margin-top:0.3rem;
+}
+.cantuancontainertwo{
+	margin-bottom:0.2rem;
+}
+.SpellingRulesContainer h2{
+	color:#333;
+	font-size:0.24rem;
+	margin-bottom:0.2rem;
+	margin-top:0.2rem;
+}
+.ulthree{
+	margin-top:0.2rem;
+}
+.cantuanbtnhe{
+	margin-bottom:0.28rem !important;
+}
+.grougbtncantunhe{
+	margin-top:0.2rem !important;
+}
+.cantuancontainerli{
+	width:100%;
+	min-height:100%;
+	background:url(../images/groupbooking.png) no-repeat;
+	background-size:100% 100%;
+	padding-top:0.32rem;
+	padding-bottom:0.4rem;
+	box-sizing:border-box;
+}
+.MySpelling{
+	background:#f6f6f6;
+}
+.MySpelling .MySpellingnav{
+	width:100%;
+	height:0.7rem;
+	background:url(../images/groupbooking19.png) no-repeat;
+	background-size:100% 100%;
+	position: fixed;
+    left: 0;
+    top: 0;
+    z-index:88;
+}
+.MySpelling .MySpellingnav ul li{
+	width:25%;
+	height:100%;
+	float:left;
+	line-height:0.7rem;
+	font-size:0.26rem;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	position:relative;
+}
+.MySpelling .MySpellingnav ul li a{
+	font-size:0.26rem;
+	font-weight:bold;
+	color:#fff;
+}
+.activenav i{
+	display:block;
+	width:0.36rem;
+	height:0.06rem;
+	background:#fff;
+	position:absolute;
+	left:50%;
+	bottom:-0.01rem;
+	margin-left:-0.18rem;
+}
+.MySpellingConul{
+	/*background:#fff;*/
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.MySpellingCon .MySpellingConulli{
+	padding:0 0.3rem;
+	background:#fff;
+	min-height:3.48rem;	
+	padding-bottom:0.4rem;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-bottom:1px solid #e7e5e5;
+	overflow: hidden;
+	margin-bottom:0.2rem;
+}
+.MySpellingliheader{
+	padding:0.4rem 0;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-bottom:1px solid #e7e5e5;
+	overflow:hidden;
+}
+.databoxleft{
+	float:left;
+}
+.databoxright{
+	float:right;
+}
+.databoxrightW{
+	color:#ff0000;
+	font-size:0.22rem;
+	font-weight:bold;
+}
+.databoxrightr{
+	display:inline-block;
+	height:0.36rem;
+	width:0.36rem;
+	background:#ff0000;
+	text-align:center;
+	line-height:0.36rem;
+	border-radius:100%;
+	color:#fff;
+	font-size:0.22rem;
+	margin-left:0.2rem;	
+}
+.MySpellingCon{
+	margin-top:0.7rem;
+}
+.MySpellingConullibottomleft{
+	float:left;
+	padding-left:0.3rem;
+	width:100%;
+	box-sizing:border-box;
+}
+.MySpellingConullibottomright{
+	float:right;
+	/*margin-top:0.12rem;*/
+}
+.MySpellingConullibottom{
+	margin-top:0.3rem;
+}
+.MySpellingConullibottom ul {
+	overflow: hidden;
+	float:left;
+}
+
+.MySpellingConullibottom ul li {
+	float: left;
+	margin-right:0.2rem;
+}
+.MySpellingConullibottom ul li a .pinpic {
+	width: 0.8rem;
+	height: 0.8rem;
+	border: 1px dashed #999999;
+	/*margin: 0 auto;*/
+	border-radius: 100%;
+	text-align: center;
+	line-height: 0.8rem;
+	position: relative;
+	margin-bottom: 0.25rem;
+}
+.MySpellingConullibottomright a{
+	width:1.34rem;
+	height:0.48rem;
+	display:block;
+	text-align:center;
+	font-size:0.22rem;
+	font-weight:bold;
+	line-height:0.48rem;
+}
+.invitebtnfriend{
+	background:url(../images/groupbooking20.png) no-repeat;
+	background-size:100% 100%;
+	color:#fff;
+	margin-bottom:0.15rem;
+}
+.invitebtnfriend1{
+	/*background:url(../images/groupbooking20.png) no-repeat;
+	background-size:100% 100%;*/
+	width: 1.34rem;
+    height: 0.48rem;
+    display: block;
+    text-align: center;
+    font-size: 0.22rem;
+    font-weight: bold;
+    line-height: 0.48rem;
+    border: 1px solid #999;
+    border-radius:0.48rem;
+    color:#333;
+    margin-bottom:0.15rem;
+}
+.getoutbtn{
+	color:#333;
+	border:1px solid #999;
+	border-radius:0.48rem;
+}
+.databoxleftwen{
+	font-size:0.2rem;
+}
+.successpics{
+	width:1.01rem;
+	height:0.89rem;
+	background:url(../images/groupbooking21.png) no-repeat;
+	background-size:100% 100%;
+	/*margin-top:-0.2rem;*/
+}
+.layer_bg {
+	width: 100%;
+	/*height: 55%;*/
+	height: 100%;
+	position: fixed;
+	background: #000000;
+	opacity: 0.6;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	display: block;
+}
+.groupbookpies{
+	height:4.6rem;
+	width: 6rem;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-top:-2.3rem;
+	margin-left:-3rem;
+	z-index:120;
+}
+.groupbookpiestext{
+	width:100%;
+	height:4.16rem;
+	background:#fff;
+	border-radius:0.1rem;
+	margin-top:0.5rem;
+}
+.MySpellingConullibottomleft ul li:last-child{
+	margin-right:0 !important;
+}
+.groupbookpiesbtn{
+	width:0.37rem;
+	height:0.37rem;
+	background:url(../images/groupbooking22.png) no-repeat;
+	background-size:100% 100%;
+	float:right;
+}
+.phonetextright{
+	float:left;
+	margin-top: 0.1rem;
+	margin-left:0.2rem;
+	width: 4.8rem;
+}
+.phonetextleft{
+	float:left;
+	/*margin-left:0.2rem !important;*/
+}
+.phonetextleft1{
+	float:left;
+}
+.faqipeoplecenter1{
+	font-size:0.2rem;
+	margin-bottom: 0.05rem;
+}
+.piesname{
+	display:inline-block;
+	width:0.27rem;
+	height:0.25rem;
+	background:url(../images/groupbooking23.png) no-repeat;
+	background-size:100% 100%;
+	margin-right:0.16rem;	
+}
+.piesphoto{
+	display:inline-block;
+	width:0.18rem;
+	height:0.3rem;
+	background:url(../images/groupbooking24.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle;
+	margin-right:0.23rem;
+}
+.piestype{
+	display:inline-block;
+	width:0.27rem;
+	height:0.27rem;
+	background:url(../images/groupbooking25.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle;
+	margin-right:0.19rem;
+}
+.groupbookpiestextleft{
+	float:left;
+	margin-top:0.66rem;
+	margin-left:0.32rem;
+	box-sizing:border-box;
+}
+.groupbookpiestextright{
+	float:right;
+	width:2.84rem;
+	height:2.13rem;
+	background:url(../images/groupbooking26.png) no-repeat;
+	background-size:100% 100%;
+	margin-top:0.33rem;
+	margin-right:0.04rem;
+}
+.groupbookpiestextleft ul li{
+	line-height:0.5rem;
+}
+.piesnamebottom{
+	width:100%;
+	height:1.7rem;
+	background:#ef9a4b;
+	border-radius:0.15rem;
+}
+.piesnametop{
+	overflow:hidden;
+}
+.piesnamebottomC{
+	width:3.8rem;
+	height:auto;
+	margin:0 auto;
+}
+.getpeoplebtn{
+	display:inline-block;
+	height:0.46rem;
+	width:1.73rem;
+	border:1px solid #fff;
+	border-radius:0.1rem;
+	margin-top:0.27rem;
+	text-align:center;
+	line-height:0.48rem;
+	color:#fff;
+	font-size:0.24rem;
+}
+.botelbtn{
+	display:inline-block;
+	height:0.48rem;
+	width:1.75rem;
+	background:#fff;
+	border-radius:0.1rem;
+	margin-left:0.11rem;
+	margin-top:0.27rem;
+	text-align:center;
+	line-height:0.48rem;
+	color:#ef9a4b;
+	font-size:0.24rem;
+}
+.gettopeoplebtn{
+	display:block;
+	height:0.48rem;
+	width:3.68rem;
+	border:1px solid #fff;
+	border-radius:0.1rem;
+	margin-top:0.2rem;
+	text-align:center;
+	line-height:0.48rem;
+	color:#fff;
+	font-size:0.24rem;
+}
+@media screen and (max-width:320px) {
+	.cantuanbtn{
+		width:6.7rem;
+	}
+	.MySpellingConullibottomright{
+		margin-right:0.2rem;
+	}
+}
+
+@media screen and (min-width:750px) {
+	.layer_bg {
+		width: 750px;
+		/*height: 39%;*/
+		height: 100%;
+		position: fixed;
+		background: #000000;
+		opacity: 0.7;
+		left: 50%;
+		margin-left:-375px;
+		bottom: 0;
+		z-index: 100;
+		display: none;
+	}
+}

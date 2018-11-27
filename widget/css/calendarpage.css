@@ -1,0 +1,223 @@
+.calendarpageone{
+	width:100%;
+	height:12.15rem;
+	background:url(../images/calendarpage1.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.calendarpagetwo{
+	width:100%;
+	height:15.24rem;
+	margin:0 auto;
+}
+.calendarpagetwo img{
+	width:100%;
+	height:100%;
+}
+.calendarpagethree{
+	width:100%;
+	height:46.9rem;
+	margin:0 auto;
+	/*margin-top:0.2rem;*/
+}
+.calendarpagethree img{
+	width:100%;
+	height:100%;
+}
+.calendarpagefour{
+	width:100%;
+	height:32.64rem;
+	background:url(../images/calendarpage4.jpg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	/*margin-top:0.4rem;*/
+}
+.calendarpagefive{
+	width:100%;
+	height:37.83rem;
+	background:url(../images/calendarpage5.jpg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	/*margin-top:0.4rem;*/
+}
+/*.calendarpagefive_1{
+	width:100%;
+	height:27.42rem;
+	background:url(../images/calendarpage5.jpg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	margin-top:0.4rem;
+}*/
+.calendarpagefive_1{
+	display:none;
+}
+.calendarpagesix{
+	width:100%;
+	height:13.11rem;
+	background:url(../images/calendarpage6.jpg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	margin-top:0.4rem;
+}
+.calendarpageseven{
+	width:100%;
+	height:26.46rem;
+	background:url(../images/calendarpage7.jpg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	/*margin-top:0.4rem;*/
+}
+.calendarpageeight{
+	width:100%;
+	height:12rem;
+	background:url(../images/calendarpage8.jpg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	/*margin-top:0.4rem;*/
+	position:relative;
+}
+.calendarpageeightbox{
+	width:5.41rem;
+	height:1.45rem;
+	position:absolute;
+	left:50%;
+	margin-left:-2.705rem;
+	bottom:0.7rem;
+}
+.calendarpageeightbtn{
+	width:100%;
+	height:1.07rem;
+	display:block;
+	background:url(../images/calendarpage9.png) no-repeat;
+	background-size:100% 100%;
+}
+.handsa{
+	width:0.84rem;
+	height:0.86rem;
+	display:block;
+	background:url(../images/calendarpage10.png) no-repeat;
+	background-size:100% 100%;
+	float: right;
+    margin-top: -0.4rem;
+    -webkit-animation: bounceIn 6s infinite linear;
+}
+.invationbtn2{
+	width:1.33rem;
+	height:1.51rem;
+	display:block;
+	background:url(../images/calendarpage11.png) no-repeat;
+	background-size:100% 100%;
+	position:fixed;
+	right:0;
+	bottom:2rem;
+}
+.teldiv{
+	position:absolute;
+	left:0;
+	bottom:0.6rem;
+	color:#fff;
+	font-size:0.26rem;
+	width:100%;
+}
+.teldiv p{
+	text-align:center;
+}
+.teldiv p a{
+	color:#fff;
+	font-size:0.26rem;
+}
+@-webkit-keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}

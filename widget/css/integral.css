@@ -1,0 +1,178 @@
+.accordion {
+	width:100%;
+	background: #FFF;
+}
+.accordion .link {
+	padding: 0.25rem 0;
+	cursor: pointer;
+	display: block;
+	color: #333333;
+	font-size:0.26rem;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	overflow:hidden;
+	/*-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;*/
+}
+.accordion li {
+	cursor: pointer;
+}
+.accordion li i {
+	position: absolute;
+	top:0.27rem;
+	right:0;
+	font-size: 18px;
+	display:inline-block;
+	width:0.14rem;
+	height:0.24rem;
+	background:url(../img/jiantou1.png) no-repeat;
+	background-size:100% 100%;	
+	/*-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;*/
+}
+.accordion .link b{
+	display:inline-block;
+	width:0.36rem;
+	height:0.36rem;
+	border-radius:100%;
+	background:#3a5cf0;
+	color:#fff;
+	text-align:center;
+	line-height:0.36rem;
+	font-size:0.24rem;
+	font-family:"方正兰亭粗黑";
+	margin-right:0.14rem;
+}
+.accordion li.openlist i.fa-chevron-down {
+	width:0.24rem;
+	height:0.14rem;
+	background:url(../img/jiantou.png) no-repeat;
+	background-size:100% 100%;	
+	/*-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;*/
+	/*-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);*/
+}
+.accordion li.openlist b{
+	background:#f67448;
+}
+.submenu {
+	display: none;
+	font-size:0.24rem;
+	overflow:hidden;
+	border-bottom:1px solid #ddd;
+	padding: 0.2rem 0;
+	/*padding:0 0.44rem;
+	box-sizing:border-box;*/
+}
+.submenu li{
+	line-height:0.4rem;
+	overflow:hidden;
+}
+.account-l{
+	padding:0 0.3rem;
+	box-sizing:border-box;
+}
+.HundredQuestionsSearch{
+	padding:0 0.3rem;
+	box-sizing:border-box;
+	margin-top:0.4rem;
+	overflow:hidden;
+}
+.HundredQuestionsSearchinput{
+	width:5.61rem;
+	height:0.6rem;
+	background:#f3f0f3;
+	border-radius:0.6rem;
+	float:left;
+	position:relative;
+}
+.HundredQuestionsSearchinput:before{
+	position:absolute;
+	content:"";
+	display:inline-block;
+	width:0.34rem;
+	height:0.34rem;
+	background:url(../img/searchbtnwen.png) no-repeat;
+	background-size:100% 100%;
+	left:0.17rem;
+	top:0.15rem;
+}
+.HundredQuestionsSearchinput input{
+	background:#f3f0f3;
+	font-size:0.3rem;
+	margin-left:0.7rem;
+	height:90%;
+	margin-top:0.02rem;
+}
+.HundredQuestionsSearchbutton{
+	width:1.14rem;
+	height:0.62rem;
+	float:right;
+	background:#436dff;
+	text-align:center;
+	line-height:0.6rem;
+	border-radius:0.09rem;
+	color:#fff;
+	font-size:0.3rem;
+}
+.submenuLeft{
+	display:inline-block;
+	width:0.11rem;
+	height:0.11rem;
+	background:url(../img/yellowicon.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle;
+	float:left;
+	margin-top: 0.15rem;
+    margin-right: 0.25rem;
+}
+.submenuRight{
+	font-size:0.24rem;
+	float:left;
+	width:6.53rem;
+	color:#666666;
+}
+.HundredQuestionsnav{
+	height:1.44rem;
+	line-height:1.44rem;
+	margin-top:0.12rem;
+	padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.HundredQuestionsbg{
+	width:100%;
+	height:2.58rem;
+	background:url(../img/searchbtnwenbg.png) no-repeat;
+	background-size:100% 100%;
+}
+.HundredQuestionsnav .swiper-container .swiper-slide{
+	text-align:center;
+	font-size:0.34rem;
+	position:relative;
+}
+.swiper-slideActive:before{
+	display:inline-block;
+	content:"";
+	position:absolute;
+	left:50%;
+	width:0.31rem;
+	height:0.05rem;
+	margin-left:-0.155rem;
+	background:url(../img/searchbtnwenblue.png) no-repeat;
+	top:1.1rem;
+}
+.swiper-slideActive{
+	color:#3a5cf0;
+}
+.HundredQuestionsbgfixed{
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:99;
+}

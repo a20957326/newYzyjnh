@@ -1,0 +1,2420 @@
+	.indexpagesec {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.swiper-container {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.newsimages {
+		width: 100% !important;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 0.4rem;
+	}
+	
+	.indexpagesecboxjian4 {
+		margin-top: 1.8rem;
+	}
+	
+	.indexpagesecboxjianheader4 {
+		width: 2.24rem;
+		height: 0.76rem;
+		background: url(../images/xiangqb.png) no-repeat;
+		background-size: 100% 100%;
+		margin-left: 0.27rem;
+		margin-bottom: 0.7rem;
+	}
+	.timechooseax{
+		color:#0033CC;
+	}
+	.swiper1 .swiper-wrapper .swiper-slide img {
+		height: 100%;
+		width: 100%;
+		animation: gogogo5 5s linear infinite;
+	}
+	
+	@keyframes gogogo5 {
+		0% {
+			transform: scale(1);
+			-webkit-transform: scale(1);
+			-moz-transform: scale(1);
+			-o-transform: scale(1);
+			-ms-transform: scale(1);
+		}
+		50% {
+			transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+			-moz-transform: scale(1.1);
+			-o-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+		}
+		100% {
+			transform: scale(1);
+			-webkit-transform: scale(1);
+			-moz-transform: scale(1);
+			-o-transform: scale(1);
+			-ms-transform: scale(1);
+		}
+	}
+	
+	.swiper-container .slider3 img {
+		width: 100%;
+		height: 100%;
+		animation: gogogo5 5s linear infinite;
+	}
+	
+	.swiper-container .slider2 img {
+		width: 100%;
+		height: 100%;
+		animation: gogogo5 5s linear infinite;
+	}
+	
+	.swiper-container .slider2 {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.swiper-container .slider3 {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.stars {
+		/*transform: perspective(100%);*/
+		transform-style: preserve-3d;
+		position: absolute;
+		bottom: 0;
+		/*perspective-origin: 50% 100%;
+	left: 50%;*/
+		animation: rotate 90s infinite linear;
+		z-index: 999;
+	}
+	
+	.star {
+		width: 0.03rem;
+		height: 0.03rem;
+		background: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform-origin: 0 0 -300px;
+		transform: translate3d(0, 0, -300px);
+		backface-visibility: hidden;
+		z-index: 999;
+	}
+	
+	.indexpageheader {
+		width: 6.532rem;
+		height: 2.32rem;
+		background: url(../images/panner4.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0.27rem;
+		top: 2.2rem;
+		z-index: 100;
+	}
+	
+	.headerbarstitle {
+		height: 0.96rem;
+		background: #000;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 104;
+		width: 100%;
+		opacity: 0.98;
+	}
+	
+	.headerbarstitleleftt {
+		width: 1.71rem;
+		height: 0.36rem;
+		background: url(../images/panner18.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.3rem;
+		margin-left: 0.27rem;
+		float: left;
+	}
+	
+	.headerbarstitleright {
+		float: right;
+		margin-top: 0.27rem;
+		margin-right: 0.27rem;
+	}
+	
+	.headerbarstitleright a {
+		display: inline-block;
+		height: 0.42rem;
+		width: 1.18rem;
+		background: url(../images/panner19.png) no-repeat;
+		background-size: 100% 100%;
+		margin-right: 0.26rem;
+		vertical-align: middle;
+	}
+	
+	.headerbarstitleright a.mypiaowu {
+		display: inline-block;
+		height: 0.42rem;
+		width: 1.18rem;
+		background: url(../images/mypiaowu.png) no-repeat;
+		background-size: 100% 100%;
+		margin-right: 0.26rem;
+		vertical-align: middle;
+	}
+	
+	.headerbarstitleright b {
+		display: inline-block;
+		height: 0.34rem;
+		width: 0.44rem;
+		background: url(../images/panner20.png) no-repeat;
+		background-size: 100% 100%;
+		vertical-align: middle;
+	}
+	
+	.fixed_divTop2 {
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 999;
+		background: #000;
+		background-size: 100% 100%;
+		height: 100%;
+		display: none;
+	}
+	
+	.ul_list1 {
+		margin-top: 0.3rem;
+	}
+	
+	.ul_list1 li {
+		color: #fff;
+		font-size: 0.32rem;
+	}
+	
+	.ul_list1 li {
+		height: 0.8rem;
+		line-height: 0.8rem;
+	}
+	
+	.ul_list1 li a {
+		color: white;
+	}
+	
+	.logopanner {
+		display: inline-block;
+		width: 1.74rem;
+		height: 0.36rem;
+		float: left;
+		margin-left: 0.24rem;
+		margin-top: 0.5rem;
+	}
+	
+	.logopanner img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.indexpagewenlist1 {
+		width: 5.78rem;
+		height: 2.52rem;
+		position: absolute;
+		left: 0.27rem;
+		top: 5.5rem;
+	}
+	
+	.indexpagewenlist1 .swiper-slide {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.indexpagewenlist1 .swiper-slide img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.indexpagebtnnes {
+		width: 2.96rem;
+		height: 0.83rem;
+		background: url(../images/panner6.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0.27rem;
+		top: 9rem;
+		z-index: 100;
+	}
+	
+	.indexpagebtnnesbtm {
+		width: 0.41rem;
+		height: 0.23rem;
+		background: url(../images/panner7.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -0.205rem;
+		bottom: 0.5rem;
+		z-index: 100;
+	}
+	
+	.indexpagesecboxnotice {
+		width: 100%;
+		height: 0.98rem;
+		background: url(../images/panner12.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: -0.1rem;
+		overflow: hidden;
+	}
+	
+	.indexpagesecboxnoticeleft {
+		width: 2.49rem;
+		height: 0.28rem;
+		background: url(../images/panner21.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.36rem;
+		margin-left: 0.27rem;
+		float: left;
+	}
+	
+	.indexpagesecboxnoticeright {
+		width: 1.1rem;
+		height: 0.4rem;
+		background: url(../images/panner22.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.36rem;
+		margin-right: 0.27rem;
+		float: right;
+	}
+	
+	.indexpagesecboxnotice24 {
+		width: 100%;
+		/*height: 1.91rem;*/
+		background: url(../images/panner24.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: -0.1rem;
+		padding: 0.35rem 0.27rem;
+		box-sizing: border-box;
+	}
+	
+	.indexpagesecboxnotice24 p {
+		color: #fff;
+		line-height: 0.4rem;
+	}
+	
+	.indexpagesecboxjianheader {
+		width: 2.7rem;
+		height: 0.78rem;
+		background: url(../images/panner25.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.79rem;
+		margin-left: 0.27rem;
+		margin-bottom: 0.7rem;
+	}
+	
+	.indexpagesecboxjianne {
+		height: 9.3rem;
+		width: 7.24rem;
+		margin: 0 auto;
+		margin-left: 0.17rem;
+	}
+	
+	.slidetops {
+		width: 2.34rem;
+		height: 2.99rem;
+		margin-top: 0.1rem;
+		position: relative;
+	}
+	
+	.slidetops img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.slidetopsflover {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		color: #fff;
+		right: 0;
+		padding: 0.1rem;
+		box-sizing: border-box;
+	}
+	
+	.slidetopsflover p:nth-of-type(1) {
+		font-size: 0.22rem;
+	}
+	
+	.slidetopsflover p:nth-of-type(2) {
+		font-size: 0.18rem;
+	}
+	
+	.indexpagesecboxjiannewatch {
+		display: block;
+		width: 1.28rem;
+		height: 0.46rem;
+		background: url(../images/panner23.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.4rem;
+		margin-bottom: 0.4rem;
+	}
+	
+	.indexpagezhanlan {
+		width: 100%;
+		height: 5.31rem;
+		background: url(../images/panner8.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.indexpagezhanlan1 {
+		width: 100%;
+		height: 4rem;
+		position: relative;
+	}
+	
+	.indexpagezhanlan1 video {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		object-fit: fill;
+		bottom: 0;
+		right: 0;
+	}
+	
+	.videolayer {
+		width: 100%;
+		height: 100%;
+		background: #000;
+		opacity: 0.62;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+	}
+	
+	.videolayer1 {
+		width: 100%;
+		height: 100%;
+		background: #000;
+		opacity: 0.62;
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 108;
+	}
+	
+	.indexpagezhanlan1COn {
+		width: 6.23rem;
+		height: 2.06rem;
+		position: absolute;
+		left: 50%;
+		margin-left: -3.15rem;
+		top: 50%;
+		margin-top: -1.03rem;
+	}
+	
+	.indexpagezhanlan1COn1 {
+		width: 6.23rem;
+		height: 1.29rem;
+		background: url(../images/panner27.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.indexpagezhanlan1COn1btn {
+		width: 1.3rem;
+		height: 0.46rem;
+		border: 1px solid #fff;
+		line-height: 0.46rem;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 0.3rem;
+		color: #fff;
+		font-size: 0.2rem;
+	}
+	
+	.indexpagezhanlan2H {
+		width: 2.96rem;
+		height: 0.77rem;
+		background: url(../images/panner9.png) no-repeat;
+		background-size: 100% 100%;
+		margin-left: 0.27rem;
+		margin-top: 0.74rem;
+		margin-bottom: 0.74rem;
+	}
+	
+	.indexpagezhanlan2Box {
+		width: 100%;
+		height: 4rem;
+	}
+	
+	.indexpagezhanlan2Box img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.indexpagezhanlan2Box .swiper-pagination-bullet-active {
+		height: 8px !important;
+		width: 8px !important;
+		background: #236cfe;
+		border-radius: 100%;
+	}
+	
+	.indexpagezhanlan2Box .swiper-container-horizontal>.swiper-pagination-bullets,
+	.swiper-pagination-custom,
+	.swiper-pagination-fraction {
+		bottom: 0.18rem;
+	}
+	
+	.indexpagezhanlan2Box .swiper-pagination-bullet {
+		opacity: 0.5;
+	}
+	
+	.indexpagezhanlan2btn {
+		height: 0.46rem;
+		width: 1.28rem;
+		background: url(../images/panner23.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.7rem;
+		margin-bottom: 0.7rem;
+	}
+	
+	.indexpagezhanlan3 {
+		width: 100%;
+		height: 17.04rem;
+		background: url(../images/panner11.png) no-repeat;
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+	
+	.indexpagezhanlan3H {
+		width: 1.67rem;
+		height: 0.79rem;
+		background: url(../images/panner28.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.47rem;
+		margin-bottom: 0.39rem;
+		margin-left: 0.27rem;
+	}
+	
+	.indexpagezhanlan3Box {
+		padding: 0 0.27rem;
+		box-sizing: border-box;
+	}
+	
+	.indexpagezhanlan3Box ul li {
+		width: 3.38rem;
+		min-height: 4.8rem;
+		background: #191a1e;
+		float: left;
+		margin-right: 0.18rem;
+		margin-bottom: 0.18rem;
+		padding: 0 0.14rem;
+		box-sizing: border-box;
+		position: relative;
+	}
+	
+	.indexpagezhanlan3Box ul li:nth-of-type(2n) {
+		margin-right: 0;
+	}
+	
+	.indexpagezhanlan3Box h2 {
+		color: #fff;
+		height: 0.94rem;
+		line-height: 0.94rem;
+		font-size: 0.3rem;
+	}
+	
+	.indexpagezhanlan3Box h4 {
+		color: #fff;
+		font-size: 0.2rem;
+		padding-bottom: 0.3rem;
+		border-bottom: 0.02rem solid #fff;
+	}
+	
+	.indexpagezhanlan3Box p {
+		color: #fff;
+		font-size: 0.18rem;
+		line-height: 0.36rem;
+		margin-top: 0.22rem;
+	}
+	
+	.priceindex .leftpriceindex {
+		float: left;
+	}
+	
+	.priceindex .rightpriceindex {
+		float: right;
+		color: #fff;
+		font-size: 0.2rem;
+		margin-top: 0.1rem;
+	}
+	
+	.priceindex .leftpriceindex span {
+		color: #fff;
+		font-size: 0.3rem;
+	}
+	
+	.priceindex .leftpriceindex i {
+		color: #fff;
+		font-size: 0.2rem;
+	}
+	
+	.priceindex {
+		position: absolute;
+		left: 0.14rem;
+		bottom: 0.9rem;
+		right: 0.27rem;
+	}
+	
+	.buypricepiaobtn {
+		width: 100%;
+		height: 0.56rem;
+		background: url(../images/panner29.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		text-align: center;
+		line-height: 0.56rem;
+		font-size: 0.24rem;
+		color: #fff;
+	}
+	
+	.indexpagezhanlan4 {
+		width: 7.5rem;
+		min-height: 3.22rem;
+		background: url(../images/panner14.png) no-repeat;
+		background-size: 100% 100%;
+		overflow: hidden;
+		padding-bottom: 0.3rem;
+	}
+	
+	.indexpagezhanlan4box {
+		width: 5.2rem;
+		margin: 0 auto;
+		margin-top: 0.5rem;
+		float: left;
+	}
+	
+	.indexpagezhanlan4box ul li {
+		float: left;
+		padding: 0 0.18rem;
+		position: relative;
+	}
+	
+	.indexpagezhanlan4box ul li a {
+		color: #fff;
+		font-size: 0.22rem;
+	}
+	
+	.indexpagezhanlan4box ul li:before {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		width: 0.02rem;
+		height: 0.18rem;
+		background: url(../images/panner30.png) no-repeat;
+		top: 0.09rem;
+	}
+	
+	.indexpagezhanlan4box ul li:last-of-type:before {
+		display: none;
+	}
+	
+	.indexpagezhanlan4boxp P {
+		color: #fff;
+		font-size: 0.18rem;
+		padding-left: 0.18rem;
+		line-height: 0.34rem;
+	}
+	
+	.indexpagezhanlan4boxp P a {
+		color: #fff;
+		font-size: 0.18rem;
+	}
+	
+	.indexpagezhanlan4boxp {
+		margin-top: 0.3rem;
+	}
+	
+	.indexpagezhanlan4wei {
+		float: right;
+		margin-top: 1.1rem;
+		margin-right: -0.4rem;
+	}
+	
+	.indexpagezhanlan4wei span {
+		display: inline-block;
+		height: 1.64rem;
+		width: 1.25rem;
+	}
+	
+	.indexpagezhanlan4wei img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.indexpagezhanlan4wei span:nth-of-type(1) {
+		margin-right: 0.73rem;
+	}
+	
+	.indexpagezhanlan5 {
+		width: 100%;
+		height: 0.72rem;
+		background: url(../images/pannerpic32.png) no-repeat;
+		font-size: 0.12rem;
+		text-align: center;
+		color: #fff;
+		line-height: 0.72rem;
+	}
+	
+	.slide_div {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	
+	.slide_img_div {
+		position: relative;
+	}
+	
+	.slide_img_ul {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	.slide_img_ul li img {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+	
+	.slide_option {
+		position: absolute;
+		width: 2.7rem;
+		height: 0.23rem;
+		left: 50%;
+		bottom: 1rem;
+		margin-left: -1.085rem;
+	}
+	
+	.slide_option li {
+		float: left;
+		position: relative;
+		margin-right: 0.93rem;
+	}
+	
+	.slide_option li:last-child {
+		margin-right: 0;
+	}
+	
+	.slide_option li span {
+		display: inline-block;
+		width: 0.27rem;
+		height: 0.23rem;
+		background: url(../images/dotliu.png) no-repeat;
+		background-size: 100% 100%;
+		opacity: 1;
+	}
+	
+	.slide_option li i {
+		display: inline-block;
+		height: 0.03rem;
+		width: 0.83rem;
+		background: url(../images/dotliuactiveliner.png) no-repeat;
+		position: absolute;
+		left: 0.32rem;
+		top: 0.1rem;
+	}
+	
+	.check_li span {
+		width: 0.27rem;
+		height: 0.23rem;
+		background: url(../images/dotliuactive.png) no-repeat !important;
+		background-size: 100% 100% !important;
+	}
+	
+	.indexpagesecbox1 {
+		width: 100%;
+		height: 14.34rem;
+		background: url(../images/canharray1.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.marginfuzhi {
+		margin-top: -1.8rem;
+	}
+	
+	.indexpagesecbox2H {
+		width: 2.38rem;
+		height: 0.78rem;
+		background: url(../images/canharray2.png) no-repeat;
+		background-size: 100% 100%;
+		margin-left: 0.27rem;
+		margin-bottom: 0.7rem;
+	}
+	
+	.indexpagesecbox2 .indexpagesecbox2Ul ul li {
+		width: 100%;
+		height: 3rem;
+		position: relative;
+	}
+	
+	.indexpagesecbox2 .indexpagesecbox2Ul ul li img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.liimg {
+		width: 100%;
+		height: 0.8rem;
+		background: #111b32;
+		opacity: 0.8;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		color: #fff;
+		padding-left: 0.27rem;
+		box-sizing: border-box;
+		line-height: 0.8rem;
+	}
+	
+	.liimgactive .liimg {
+		width: 100%;
+		height: 0.8rem;
+		background: url(../images/canharray4.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.indexpagesecbox3H {
+		width: 3.69rem;
+		height: 0.79rem;
+		background: url(../images/canharray8.png) no-repeat;
+		background-size: 100% 100%;
+		margin-left: 0.27rem;
+		margin-bottom: 0.7rem;
+	}
+	
+	.indexpagesecbox3pic .swiper-slide {
+		background: #fff;
+		width: 80%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+		overflow: hidden;
+		margin-right: 0.3rem !important;
+	}
+	
+	.swiper-slidepic1 {
+		width: 6.5rem;
+		height: 2.87rem;
+	}
+	
+	.swiper-slidepic1 img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.slidepictop {
+		width: 100%;
+		height: 2.6rem;
+		background: #191a1e;
+		overflow: hidden;
+	}
+	
+	.indexpagesecbox3pic {
+		height: 5.48rem;
+		margin-bottom: 0.79rem;
+	}
+	
+	.slidepictopheader2 {
+		width: 1.4rem;
+		height: 0.23rem;
+		background: url(../images/canharray12_1.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.3rem;
+		margin-left: 0.27rem;
+		margin-bottom: 0.2rem;
+	}
+	
+	.slidepictopheader {
+		width: 2.83rem;
+		height: 0.23rem;
+		background: url(../images/canharray12.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.3rem;
+		margin-left: 0.27rem;
+		margin-bottom: 0.2rem;
+	}
+	
+	.slidepictopheader3 {
+		width: 2.89rem;
+		height: 0.23rem;
+		background: url(../images/canharray13.png) no-repeat;
+		background-size: 100% 100%;
+		margin-top: 0.3rem;
+		margin-left: 0.27rem;
+		margin-bottom: 0.2rem;
+	}
+	
+	.slidepictop {
+		padding: 0 0.27rem;
+		box-sizing: border-box;
+	}
+	
+	.slidepictop p {
+		margin-left: 0.27rem;
+		color: #fff;
+		line-height: 0.31rem;
+		font-size: 0.2rem;
+		margin-right: 0.27rem;
+	}
+	
+	.hostbtn {
+		display: block;
+		width: 1.64rem;
+		height: 0.46rem;
+		border: 1px solid #fff;
+		line-height: 0.48rem;
+		text-align: center;
+		font-size: 0.2rem;
+		color: #fff;
+		margin-left: 0.27rem;
+		margin-top: 0.2rem;
+	}
+	
+	.newstaibg {
+		width: 100%;
+		height: 13.64rem;
+		background: url(../images/newstai1.png) no-repeat;
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+	
+	.newstaibgcon {
+		margin-top: 1.58rem;
+	}
+	
+	.newstaibgcon .newstaibgconul ul li {
+		font-size: 0.2rem;
+		color: #fff;
+		float: left;
+		padding: 0.1rem 0.08rem;
+		box-sizing: border-box;
+		border: 1px solid #fff;
+		margin-left: 0.3rem;
+	}
+	
+	.newstaibgcon .newstaibgconul {
+		overflow: hidden;
+	}
+	
+	.newstaibgcon .newstaibgconul ul li.newstaiactive {
+		background: url(../images/buybtns4.png) no-repeat;
+		background-size: 100% 100%;
+		border: none;
+	}
+	
+	.newstaibgconlist {
+		padding: 0 0.27rem;
+		box-sizing: border-box;
+		margin-top: 0.4rem;
+	}
+	
+	.newstaibgconlist .newstaibgconitem ul li {
+		color: #fff;
+		font-size: 0.26rem;
+		padding: 0.18rem 0;
+		box-sizing: border-box;
+		border-bottom: 1px dashed #fff;
+	}
+	
+	.newstaibgconlist .newstaibgconitem ul li a {
+		font-size: 0.2rem;
+		color: #fff;
+	}
+	
+	.newstaibgconlist .newstaibgconitem ul li p {
+		font-size: 0.14rem;
+		color: #fff;
+		margin-top: 0.05rem;
+	}
+	
+	.newstaibgconlist .newstaibgconitem1 ul li {
+		width: 3.4rem;
+		height: 2.55rem;
+		float: left;
+		margin-right: 0.12rem;
+		margin-top: 0.12rem;
+	}
+	
+	.newstaibgconlist .newstaibgconitem1 ul li:nth-of-type(2n) {
+		margin-right: 0;
+	}
+	
+	.newstaibgconlist .newstaibgconitem1 ul li img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.newstaibgcon .newstaibgconul1 ul li {
+		font-size: 0.2rem;
+		color: #333;
+		float: left;
+		padding: 0.1rem 0.08rem;
+		box-sizing: border-box;
+		border: 1px solid #333;
+		margin-left: 0.3rem;
+	}
+	
+	.newstaibgcon .newstaibgconul1 {
+		overflow: hidden;
+	}
+	
+	.newstaibgcon .newstaibgconul1 ul li.newstaiactive {
+		background: url(../images/buybtns4.png) no-repeat;
+		background-size: 100% 100%;
+		border: none;
+		color: #fff;
+	}
+	
+	.newstaibgconH {
+		width: 2.3rem;
+		height: 0.76rem;
+		background: url(../images/momentBE.png) no-repeat;
+		background-size: 100% 100%;
+		margin-left: 0.27rem;
+		margin-bottom: 0.4rem;
+	}
+	
+	.nowdetails .swiper-slide {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.nowdetails .nowdetails1 {
+		width: 100%;
+		height: 100%;
+		background: url(../images/nowdetail.png) no-repeat;
+		background-size: 100% 100%;
+		position: relative;
+	}
+	
+	.nowdetails .nowdetails2 {
+		width: 100%;
+		height: 100%;
+		background: url(../images/nowdetail2.png) no-repeat;
+		background-size: 100% 100%;
+		position: relative;
+	}
+	
+	.nowdetails .nowdetails1 .nowdetailswen1 {
+		width: 5.4rem;
+		height: 5.31rem;
+		background: url(../images/nowdetail3.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0.3rem;
+		top: 2.3rem;
+	}
+	
+	.nowdetails .nowdetails2 .nowdetailswen2 {
+		width: 5.4rem;
+		height: 7.68rem;
+		background: url(../images/nowdetail4.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0.3rem;
+		bottom: 0.3rem;
+	}
+	
+	.nowdetailup {
+		display: block;
+		width: 0.4rem;
+		height: 0.18rem;
+		background: url(../images/nowdetail1.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -0.2rem;
+		bottom: 0.4rem;
+		-webkit-animation: gogogo 2s infinite linear;
+	}
+	
+	@keyframes gogogo {
+		0% {
+			transform: translate(0px, 0px);
+		}
+		50% {
+			transform: translate(0px, -10px);
+		}
+		100% {
+			transform: translate(0px, 0px);
+		}
+	}
+	
+	.yeargroup {
+		width: 100%;
+		min-height: 100%;
+		background: #212121;
+		overflow: hidden;
+	}
+	
+	.yeargroupBOx {
+		margin-top: 1.34rem;
+		padding: 0 0.28rem;
+		box-sizing: border-box;
+	}
+	
+	.yeargroupBOxH {
+		width: 1.66rem;
+		height: 0.76rem;
+		background: url(../images/yeargroup1.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargroupC ul {
+		overflow: hidden;
+		margin-bottom: 0.5rem;
+	}
+	
+	.yeargroupC ul li {
+		float: left;
+		width: 25%;
+		text-align: center;
+		padding: 0.3rem 0;
+		box-sizing: border-box;
+		border-bottom: 1px solid #909090;
+		position: relative;
+	}
+	
+	.yeargroupC ul li a {
+		color: #909090;
+		font-size: 0.26rem;
+	}
+	
+	.yeargroupC ul li b {
+		display: inline-block;
+		width: 1.13rem;
+		height: 0.03rem;
+		background: url(../images/yeargroup2.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		bottom: -2px;
+		left: 0.13rem;
+	}
+	
+	.yeargroupActive a {
+		color: #fff !important;
+	}
+	
+	.yeargroupActive b {
+		display: block !important;
+	}
+	
+	.yeargrouppic .yeargrouppicitem {
+		margin-bottom: 0.48rem;
+	}
+	
+	.yeargrouppic .yeargrouppicitem1 {
+		width: 6.93rem;
+		height: 4.31rem;
+		background: url(../images/yeargroup3.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargrouppic .yeargrouppicitem2 {
+		width: 6.93rem;
+		height: 4rem;
+		background: url(../images/yeargroup4.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargrouppic .yeargrouppicitem3 {
+		width: 6.94rem;
+		height: 3.34rem;
+		background: url(../images/yeargroup5.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargrouppic .yeargrouppicitem4 {
+		width: 6.94rem;
+		height: 3.34rem;
+		background: url(../images/yeargroup6.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargrouppic .yeargrouppicitem5 {
+		width: 6.93rem;
+		height: 3.34rem;
+		background: url(../images/yeargroup7.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargrouppic .yeargrouppicitem6 {
+		width: 6.93rem;
+		height: 3.34rem;
+		background: url(../images/yeargroup8.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargrouppic .yeargrouppicitem7 {
+		width: 6.93rem;
+		height: 3.71rem;
+		background: url(../images/yeargroup13.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.yeargrouppicitem {
+		position: relative;
+	}
+	
+	.yeargrouppicitem1 a {
+		display: inline-block;
+		height: 0.17rem;
+		width: 0.88rem;
+		background: url(../images/yeargroup10.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0.12rem;
+		bottom: 0.3rem;
+	}
+	
+	.yeargrouppicitem2 a {
+		display: inline-block;
+		height: 0.17rem;
+		width: 0.88rem;
+		background: url(../images/yeargroup9.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0.12rem;
+		bottom: 0.3rem;
+	}
+	
+	.yeargrouppicitem3 a {
+		display: inline-block;
+		height: 0.17rem;
+		width: 0.88rem;
+		background: url(../images/yeargroup9.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0.12rem;
+		bottom: 0.3rem;
+	}
+	
+	.yeargrouppicitem4 a {
+		display: inline-block;
+		height: 0.17rem;
+		width: 0.88rem;
+		background: url(../images/yeargroup9.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0.12rem;
+		bottom: 0.3rem;
+	}
+	
+	.yeargrouppicitem5 a {
+		display: inline-block;
+		height: 0.17rem;
+		width: 0.88rem;
+		background: url(../images/yeargroup9.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0.12rem;
+		bottom: 0.3rem;
+	}
+	
+	.yeargrouppicitem6 a {
+		display: inline-block;
+		height: 0.17rem;
+		width: 0.88rem;
+		background: url(../images/yeargroup9.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0.12rem;
+		bottom: 0.3rem;
+	}
+	
+	.danshenitem1 {
+		width: 7.01rem;
+		height: 5.89rem;
+		background: url(../images/yeargroup11.png) no-repeat;
+		background-size: 100% 100%;
+		margin-bottom: 0.5rem;
+	}
+	
+	.yeargrouppicitem7 a {
+		display: inline-block;
+		height: 0.17rem;
+		width: 0.88rem;
+		background: url(../images/yeargroup14.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0.12rem;
+		bottom: 0.3rem;
+	}
+	
+	.yeargrouppicitem8 {
+		width: 6.93rem;
+		height: 5.12rem;
+		background: url(../images/yeargroup15.png) no-repeat;
+		background-size: 100% 100%;
+		margin-bottom: 0.5rem;
+		margin: 0 auto;
+	}
+	
+	.yeargrouppicitem9 {
+		width: 6.93rem;
+		height: 5.18rem;
+		background: url(../images/yeargroup16.png) no-repeat;
+		background-size: 100% 100%;
+		margin-bottom: 0.5rem;
+		margin: 0 auto;
+	}
+	
+	.danshenitem2 {
+		width: 7.01rem;
+		height: 4.54rem;
+		background: url(../images/yeargroup12.png) no-repeat;
+		background-size: 100% 100%;
+		margin-bottom: 0.5rem;
+	}
+	
+	.youjiaoexhibition {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	
+	.youjiaoexhibition video {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		top: 0;
+		object-fit: fill;
+	}
+	
+	.youjiaoexhibitionwen {
+		height: 7.2rem;
+		width: 6.9rem;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -3.45rem;
+		margin-top: -3.6rem;
+	}
+	
+	.youjiaoexhibitionwentit {
+		height: 2.52rem;
+		width: 6.4rem;
+		background: url(../images/videobgpic1.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.exhibitionwenin {
+		font-size: 0.22rem;
+		color: #fff;
+		line-height: 0.34rem;
+		margin-top: 0.7rem;
+	}
+	
+	.canzhanbtn {
+		display: block;
+		height: 0.64rem;
+		width: 1.78rem;
+		border: 1px solid #fff;
+		color: #fff;
+		text-align: center;
+		font-size: 0.28rem;
+		line-height: 0.64rem;
+		margin-top: 1.2rem;
+	}
+	
+	.youjiaoexhibition1H {
+		width: 100%;
+		height: 2.58rem;
+		background: url(../images/videobgpic2.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.exhibition1picItem {
+		width: 100%;
+		height: 3rem;
+		position: relative;
+	}
+	
+	.exhibition1picItem img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.tuanY {
+		height: 0.7rem;
+		width: 0.7rem;
+		position: absolute;
+		left: 50%;
+		top: 0.68rem;
+		margin-left: -0.35rem;
+		z-index: 99;
+	}
+	
+	.tuanY img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.exhibition1picItem .tuanYwen {
+		height: auto;
+		width: 3.6rem;
+		position: absolute;
+		left: 50%;
+		top: 1.9rem;
+		margin-left: -1.8rem;
+		text-align: center;
+		color: #fff;
+		font-size: 0.34rem;
+		font-weight: bold;
+		z-index: 99;
+	}
+	
+	.tuanYwenp3 {
+		width: 2.37rem;
+		height: 0.1rem;
+		background: url(../images/videobgpic13.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.2rem;
+	}
+	
+	.tuanYwenp4 {
+		width: 2.94rem;
+		height: 0.1rem;
+		background: url(../images/videobgpic14.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.2rem;
+	}
+	
+	.tuanYwenp5 {
+		width: 1.38rem;
+		height: 0.1rem;
+		background: url(../images/videobgpic15.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.2rem;
+	}
+	
+	.tuanYwenp6 {
+		width: 1.38rem;
+		height: 0.1rem;
+		background: url(../images/videobgpic16.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.2rem;
+	}
+	
+	.tuanYwenp7 {
+		width: 2.3rem;
+		height: 0.1rem;
+		background: url(../images/videobgpic17.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.2rem;
+	}
+	
+	.exhibition1picItemActive {
+		width: 100%;
+		height: 1.69rem;
+		background: url(../images/videobgpiclay.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: none;
+	}
+	
+	.youjiaoexhibition2 {
+		width: 100%;
+		height: 6.5rem;
+		background: url(../images/videobgpic19.png) no-repeat;
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+	
+	.youjiaoexhibition2H {
+		width: 2.48rem;
+		height: 0.29rem;
+		background: url(../images/videobgpic18.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.82rem;
+	}
+	
+	.youjiaoexhibition2earch {
+		width: 3.25rem;
+		height: 3.25rem;
+		background: url(../images/videobgpic20.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.94rem;
+		position: relative;
+	}
+	
+	.smallearth {
+		width: 1.99rem;
+		height: 1.98rem;
+		background: url(../images/videobgpic21.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -0.995rem;
+		margin-top: -0.99rem;
+	}
+	
+	.smallearth1 {
+		width: 1.99rem;
+		height: 1.98rem;
+		background: url(../images/videobgpic21.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -0.995rem;
+		margin-top: -0.99rem;
+		animation: zoomIn 1.3s infinite ease-out;
+	}
+	
+	@-webkit-keyframes zoomIn {
+		from {
+			opacity: 0;
+			-webkit-transform: scale3d(0.3, 0.3, 0.3);
+			transform: scale3d(0.3, 0.3, 0.3);
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+	
+	@keyframes zoomIn {
+		from {
+			opacity: 0;
+			-webkit-transform: scale3d(0.3, 0.3, 0.3);
+			transform: scale3d(0.3, 0.3, 0.3);
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+	
+	.zoomIn {
+		-webkit-animation-name: zoomIn;
+		animation-name: zoomIn;
+	}
+	
+	.youjiaoexhibition2B {
+		width: 6.9rem;
+		height: auto;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	.earthwen1 {
+		width: 2.42rem;
+		height: 0.89rem;
+		background: url(../images/videobgpic23.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0.35rem;
+		top: 0;
+		transition: all .3s ease;
+		animation: slideInLeft 1.3s ease-out;
+	}
+	
+	.earthwen2 {
+		width: 2.38rem;
+		height: 1.26rem;
+		background: url(../images/videobgpic24.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0.35rem;
+		bottom: 0;
+		transition: all .3s ease;
+		animation: slideInLeft 1.3s ease-out;
+	}
+	
+	.earthwen3 {
+		width: 2.88rem;
+		height: 0.9rem;
+		background: url(../images/videobgpic25.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: all .3s ease;
+		animation: slideInLeft 1.3s ease-out;
+	}
+	
+	.earthwen4 {
+		width: 2.08rem;
+		height: 1.25rem;
+		background: url(../images/videobgpic26.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 0.56rem;
+		bottom: 0;
+		transition: all .3s ease;
+		animation: slideInLeft 1.3s ease-out;
+	}
+	
+	.Typeexhibitor b {
+		display: block;
+		width: 10px;
+		height: 10px;
+		background-color: #fff;
+		border-radius: 50%;
+		box-shadow: 0 0 10px rgba(0, 0, 0, .3) inset;
+		-webkit-animation-name: 'ripple';
+		/*动画属性名，也就是我们前面keyframes定义的动画名*/
+		-webkit-animation-duration: 1s;
+		/*动画持续时间*/
+		-webkit-animation-timing-function: ease;
+		/*动画频率，和transition-timing-function是一样的*/
+		-webkit-animation-delay: 0s;
+		/*动画延迟时间*/
+		-webkit-animation-iteration-count: infinite;
+		/*定义循环资料，infinite为无限次*/
+		-webkit-animation-direction: normal;
+		/*定义动画方式*/
+	}
+	
+	.youjiaoexhibition3H {
+		width: 4.58rem;
+		height: 0.57rem;
+		background: url(../images/videobgpic27.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 0.8rem;
+		margin-bottom: 0.8rem;
+	}
+	
+	.youjiaoexhibition3 {
+		width: 100%;
+		height: 9.8rem;
+		background: url(../images/videobgpic28.png) no-repeat;
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+	
+	.youjiaoexhibition3 ul li {
+		float: left;
+		width: 33.3%;
+		margin-bottom: 0.5rem;
+		text-align: center;
+	}
+	
+	.youjiaoexhibition3 ul li span {
+		display: block;
+		height: 0.9rem;
+		width: 0.9rem;
+		margin: 0 auto;
+		margin-bottom: 0.1rem;
+	}
+	
+	.youjiaoexhibition3 ul li span img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.youjiaoexhibition3 ul li i {
+		font-size: 0.2rem;
+		font-weight: bold;
+	}
+	
+	@-webkit-keyframes slideInLeft {
+		from {
+			-webkit-transform: translate3d(-100%, 0, 0);
+			transform: translate3d(-100%, 0, 0);
+			visibility: visible;
+		}
+		to {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	
+	@keyframes slideInLeft {
+		from {
+			-webkit-transform: translate3d(-100%, 0, 0);
+			transform: translate3d(-100%, 0, 0);
+			visibility: visible;
+		}
+		to {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	
+	.slideInLeft {
+		-webkit-animation-name: slideInLeft;
+		animation-name: slideInLeft;
+	}
+	
+	.newsmessagecontain {
+		width: 100%;
+		background: #fff;
+		overflow: hidden;
+	}
+	
+	.newsmessagecontainbox {
+		margin-top: 0.96rem;
+		padding: 0 0.3rem;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	
+	.newsmessagecontainboxtop {
+		margin-top: 0.5rem;
+		padding-bottom: 0.2rem;
+	}
+	
+	.newsmessagecontainboxH {
+		font-size: 0.28rem;
+		color: #000000;
+		font-weight: bold;
+		padding-bottom: 0.1rem;
+	}
+	
+	.newsmessagecontainboxtop p span {
+		color: #999999;
+		font-size: 0.2rem;
+	}
+	
+	.messageliner {
+		width: 6.9rem;
+		height: 1px;
+		background: url(../images/newsmessag1.png) no-repeat;
+		background-size: 100% 100%;
+		margin-bottom: 0.34rem;
+	}
+	
+	.newshtml {
+		margin-bottom: 0.8rem;
+	}
+	.newshtml table{
+		width:100% !important;
+	}
+	.newshtml p {
+		line-height: 0.44rem;
+	}
+	.newshtml table td a{
+		color:#0033CC !important;
+	}
+	.mybilleteratable {
+		width: 100%;
+		height: 0.84rem;
+		background: #fff;
+		position: fixed;
+		left: 0;
+		top: 0.96rem;
+	}
+	
+	.mybilleteratable ul li {
+		width: 50%;
+		text-align: center;
+		line-height: 0.84rem;
+		float: left;
+		position: relative;
+	}
+	
+	.mybilleteratable ul li:before {
+		content: "";
+		display: block;
+		height: 0.12rem;
+		width: 0.18rem;
+		background: url(../images/shaedpic.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 1rem;
+		top: 0.36rem;
+	}
+	
+	.mybilleteraconitem {
+		min-height: 1.14rem;
+		background: #fff;
+		padding: 0.2rem 0.3rem;
+		box-sizing: border-box;
+		margin-bottom: 0.12rem;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.mybilleteraconitem:before {
+		content: "";
+		height: 100%;
+		width: 0.06rem;
+		background: url(../images/shaeepic3.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0;
+		top: 0rem;
+	}
+	
+	.mybilleteracon {
+		width: 100%;
+		margin-top: 1.9rem;
+	}
+	
+	.mybilleteraconitemtop {
+		overflow: hidden;
+		margin-bottom: 0.2rem;
+	}
+	
+	.mybilleteraconitemtop .mybilleteraconitemtople {
+		float: left;
+		font-size: 0.26rem;
+		color: #003399;
+	}
+	
+	.mybilleteraconitemtop .mybilleteraconitemtopri {
+		float: right;
+		font-size: 0.26rem;
+		color: #003399;
+	}
+	
+	.mybilleteraconitem p {
+		font-size: 0.24rem;
+		color: #333333;
+		font-weight: bold;
+	}
+	
+	.mybillliner {
+		width: 6.9rem;
+		height: 1px;
+		background: url(../images/shaedpic1.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.mybilleteraconitem ul li {
+		padding: 0.22rem 0;
+		font-size: 0.22rem;
+		color: #333;
+		line-height: 0.4rem;
+		border-bottom: 1px solid #cccccc;
+		overflow: hidden;
+	}
+	
+	.mybilleteraconitem .ulleftspan {
+		margin-right: 0.28rem;
+		/*width: 1.3rem;*/
+		display: inline-block;
+		text-align: right;
+		float: left;
+		font-size: 0.22rem;
+	}
+	
+	.ulrightspan {
+		float: left;
+		width: 5.2rem;
+		font-size: 0.22rem;
+		line-height: 0.4rem;
+	}
+	
+	.ulrightspancolor {
+		color: #003399;
+	}
+	
+	.itemlisttype {
+		margin-top: 0.28rem;
+	}
+	
+	.mybilleterul ul li {
+		padding: 0.22rem 0.3rem;
+		background: #fff;
+		margin-bottom: 0.07rem;
+		box-sizing: border-box;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.mybilleterul ul li:before {
+		content: "";
+		display: block;
+		height: 100%;
+		width: 0.06rem;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url(../images/shaeepic3.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.mybilltop {
+		color: #003399;
+		font-size: 0.25rem;
+		overflow: hidden;
+	}
+	
+	.chooseGoodbtn {
+		position: fixed;
+		width: 100%;
+		height: 0.8rem;
+		background: url(../images/canharray4.png) no-repeat;
+		background-size: 100% 100%;
+		left: 0;
+		bottom: 0;
+		text-align: center;
+		color: #fff;
+		line-height: 0.8rem;
+		font-size: 0.26rem;
+	}
+	
+	.mybilltopleft {
+		float: left;
+	}
+	
+	.mybilltopright {
+		float: right;
+	}
+	
+	.mybilleterul ul li h2 {
+		color: #333;
+		font-size: 0.24rem;
+		margin-bottom: 0.2rem;
+		margin-top: 0.2rem;
+		width:5rem;
+	}
+	
+	.mybillbottom .mybillbottomleft p {
+		line-height: 0.4rem;
+		font-size: 0.22rem;
+		width:6rem;
+	}
+	
+	.mybillbottom .mybillbottomleft {
+		float: left;
+	}
+	
+	.mybillbottom .mybillbottomright {
+		float: right;
+	}
+	
+	.mybillbottomright .input_style input {
+		width: 0.32rem !important;
+		height: 0.32rem !important;
+		vertical-align: middle;
+		opacity: 0;
+	}
+	
+	.mybillbottomright .input_style {
+		display: inline-block;
+		background: url(../images/richenchoose.png) no-repeat;
+		width: 0.32rem !important;
+		height: 0.32rem !important;
+		background-size: 100% 100%;
+	}
+	
+	.mybillbottomright .radio_checked {
+		background: url(../images/richenchoosechecked.png) no-repeat !important;
+		background-size: 100% 100% !important;
+	}
+	
+	.timechoose {
+		width: 100%;
+		height: auto;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		background: #fff;
+		z-index: 120;
+		display: none;
+	}
+	
+	.timechoose ul li {
+		height: 0.8rem;
+		line-height: 0.8rem;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+		font-size: 0.26rem;
+	}
+	
+	.timechoose ul li:nth-of-type(3) {
+		border-bottom: none;
+	}
+	
+	.loucenchoose {
+		width: 100%;
+		height: auto;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		background: #fff;
+		z-index: 120;
+		display: none;
+	}
+	
+	.loucenchoose ul li {
+		height: 0.8rem;
+		line-height: 0.8rem;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+		font-size: 0.26rem;
+	}
+	
+	.timechooseleft {
+		vertical-align: middle;
+	}
+	
+	.indexpagesecbox4 {
+		padding: 0 0.27rem;
+		box-sizing: border-box;
+		margin-bottom: 1rem;
+	}
+	
+	.mybilletera {
+		margin-bottom: 2rem;
+	}
+	
+	.indexpagesecbox4COn ul li {
+		height: 0.98rem;
+		line-height: 0.98rem;
+		background: #191a1e;
+		margin-bottom: 0.2rem;
+		color: #fff;
+		font-size: 0.24rem;
+	}
+	
+	.indexpagesecbox4COn ul li .center {
+		margin-left: 0.1rem;
+		display: inline-block;
+		line-height: 0.98rem;
+		float: left;
+	}
+	
+	.indexpagesecbox4COn ul li .left {
+		display: block;
+		height: 0.98rem;
+		width: 0.78rem;
+		float: left;
+	}
+	
+	.indexpagesecbox4COn ul li .left img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.indexpagesecbox4COn ul li .right {
+		display: block;
+		width: 1.18rem;
+		height: 0.38rem;
+		float: right;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 0.38rem;
+		color: #fff;
+		margin-right: 0.18rem;
+		margin-top: 0.3rem;
+		font-size: 0.2rem;
+	}
+	
+	.indexpagesecbox4H {
+		width: 3.42rem;
+		height: 0.78rem;
+		background: url(../images/centerca6.png) no-repeat;
+		background-size: 100% 100%;
+		margin-bottom: 0.5rem;
+	}
+	
+	.videoyearsCbanner {
+		width: 100%;
+		height: 2.72rem;
+		background: url(../images/videoyearsC.png) no-repeat;
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+	
+	.videoyearsCbannerH {
+		width: 3.94rem;
+		height: 0.57rem;
+		background: url(../images/videoyearsC1.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 1.6rem;
+	}
+	
+	.videoyearsCnav {
+		height: 0.7rem;
+		width: 100%;
+		background: url(../images/PersonalCenternav.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.videoyearsCnav ul li {
+		height: 100%;
+		line-height: 0.7rem;
+		width: 25%;
+		text-align: center;
+		color: #fff;
+		font-size: 0.22rem;
+		float: left;
+	}
+	
+	.videoyearsCnav ul li.videoyearsCnavactive {
+		height: 100%;
+		background: url(../images/videoyearsC4.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.videoyearsCbox {
+		padding: 0.3rem;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	
+	.videoyearsClist ul li {
+		width: 3.4rem;
+		height: 4.05rem;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		margin-right: 0.1rem;
+		margin-bottom: 0.1rem;
+	}
+	
+	.videoyearsClist ul li:nth-of-type(2n) {
+		margin-right: 0;
+	}
+	
+	.videoyearsClist ul li .topliima img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.topliima {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+	
+	.toublue {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 3.4rem;
+		height: 3.49rem;
+		background: url(../images/videoyearsC3.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.bottomlinersC {
+		position: absolute;
+		left: 0;
+		bottom: 0.2rem;
+		color: #fff;
+		padding: 0 0.1rem;
+	}
+	
+	.bottomlinersC h4 {
+		font-size: 0.24rem;
+		font-weight: normal;
+		margin-bottom: 0.1rem;
+	}
+	
+	.bottomlinersC p {
+		font-size: 0.2rem !important;
+		line-height: 0.3rem;
+	}
+	
+	.videoyearsliners {
+		width: 100%;
+		height: 0.06rem;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background: #236cfe;
+	}
+	
+	.videoyplayers {
+		width: 0.51rem;
+		height: 0.51rem;
+		background: url(../images/videoyearsC5.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -0.255rem;
+		margin-top: -0.255rem;
+		z-index: 99;
+		cursor: pointer;
+	}
+	
+	.videoyearsClist .page {
+		float: left;
+		/* 自适应内容宽度 */
+		position: relative;
+		left: 50%;
+		margin-top: 0.4rem;
+		margin-bottom: 0.2rem;
+	}
+	
+	.ui-pagination-container {
+		height: 0.34rem;
+		line-height: 0.34rem;
+		position: relative;
+		left: -50%;
+	}
+	
+	.ui-pagination-container .ui-pagination-page-item {
+		font-size: 0.18rem;
+		padding: 0.08rem 0.15rem;
+		border: 1px solid #1929a2;
+		color: #fff;
+		margin: 0 0.03rem;
+		text-decoration: none;
+		color: #1929a2;
+	}
+	
+.ui-pagination-container .ui-pagination-page-item.active {
+		background: #1929a2 !important;
+		border: none;
+		background-size: 100% 100%;
+		padding: 0.1rem 0.16rem;
+		color: #fff;
+}	
+.videoimglayers {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #000000;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	z-index: 1000;
+}
+.videoplayerb{
+	position: fixed;
+	width:5.76rem;
+	height:3.24rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -2.88rem;
+	margin-top: -1.62rem;
+	z-index: 1004;
+}	
+.videoplayerb video{
+	width:100%;
+	height:100%;
+	object-fit: fill
+}	
+.videoplayerb span {
+	display: block;
+	height: 0.25rem;
+	width: 0.25rem;
+	border: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	line-height: 0.25rem;
+	border-radius: 100%;
+	float: right;
+	cursor: pointer;
+	margin-bottom:0.1rem;
+}	
+.positionfixeds {
+	position: fixed;
+	left: 0;
+	top:0.96rem;
+	z-index: 333;
+}	
+.videoonlinebg{
+	width:100%;
+	height:100%;
+	background:#000000;
+}
+.videoonlinelistCon{
+	padding-left:0.3rem;
+	padding-right:0.3rem;
+	padding-top:0.96rem;
+	box-sizing:border-box;
+}
+.videoonlinelistCon .videoonlinelistConli .videoonline{
+	width:6.9rem;
+	height:3.68rem;
+	margin:0 auto;
+}
+.videoonlinelistCon .videoonlinelistConli .videoonline video{
+	width:100%;
+	height:100%;
+	object-fit: fill;
+}	
+.videoonlinelistCon .videoonlinelistConli h2{
+	color:#fff;
+	font-size:0.26rem;
+	padding:0.2rem 0;
+	box-sizing:border-box;
+}
+.momentinsert{
+	height:0.8rem;
+	line-height:0.8rem;
+	width:6.9rem;
+	margin:0 auto;
+	text-align:center;
+	color:#fff;
+	background:url(../images/buybtns4.png) no-repeat;
+	background-size:100% 100%;
+	font-size:0.28rem;
+	margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.videotableline{
+	width:6.9rem;
+	margin:0 auto;
+}
+.videotableline table tr td{
+	color:#fff;
+	padding:0.2rem 0.1rem;
+	box-sizing:border-box;
+	border-bottom:1px solid #e1e1e1;
+	text-align:left;
+}	
+.videotableline table tr .tds1{
+	width:4.5rem;
+}
+.videotableline table tr .tds2{
+	width:2.4rem;
+	padding-left:0.6rem;
+	box-sizing:border-box;
+}	
+.tractive td{
+	color:#d12ec4 !important;
+}
+.tdsheader{
+	margin-bottom:0.1rem;
+}
+.videotableline table tr td p{
+	line-height:0.35rem;
+}	
+.tdsteacher{
+	margin-right:0.1rem;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@media screen and (min-width: 750px) {
+		.headerbarstitle {
+			width: 750px;
+			height: 0.96rem;
+			position: fixed;
+			background: #000000;
+			opacity: 0.98;
+			left: 50%;
+			margin-left: -375px;
+			z-index: 100;
+			top: 0;
+		}
+		.videolayer1 {
+			width: 750px;
+			height: 100%;
+			background: #000;
+			position: fixed;
+			left: 50%;
+			margin-left: -375px;
+			top: 0;
+		}
+		.chooseGoodbtn {
+			position: fixed;
+			width: 750px;
+			height: 0.8rem;
+			background: url(../images/canharray4.png) no-repeat;
+			background-size: 100% 100%;
+			left: 50%;
+			margin-left: -375px;
+			bottom: 0;
+			text-align: center;
+			color: #fff;
+			line-height: 0.8rem;
+			font-size: 0.26rem;
+		}
+		.timechoose {
+			width: 750px;
+			height: auto;
+			position: fixed;
+			left: 50%;
+			margin-left: -375px;
+			bottom: 0;
+			background: #fff;
+			z-index: 120;
+		}
+		.loucenchoose {
+			width: 750px;
+			height: auto;
+			position: fixed;
+			left: 50%;
+			margin-left: -375px;
+			bottom: 0;
+			background: #fff;
+			z-index: 120;
+			display: none;
+		}
+		.mybilleteratable {
+			width: 750px;
+			height: 0.84rem;
+			background: #fff;
+			position: fixed;
+			left: 50%;
+			margin-left: -375px;
+			top: 0.96rem;
+		}
+		.fixed_divTop2 {
+			width: 750px;
+			height: 100%;
+			position: fixed;
+			background: #000000;
+			left: 50%;
+			margin-left: -375px;
+			z-index: 100;
+			top: 0;
+		}
+	}
